@@ -1,0 +1,1611 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+   <head>
+      <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <meta name="description" content="Fluxion Labs provides enterprise-level cybersecurity and penetration testing services trusted by global organizations including the UN, Apple, and government agencies worldwide.">
+      <meta name="theme-color" content="#ffffff">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="robots" content="">
+
+      
+      
+
+
+      <title>Fluxion Labs | Expert Cybersecurity & Penetration Testing Services</title>
+      <!-- SEO Description -->
+      <meta name="description" content="Fluxion Labs provides enterprise-level cybersecurity and penetration testing services trusted by global organizations including the UN, Apple, and government agencies worldwide.">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <!-- Performance optimization: Preload critical resources -->
+      <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+      
+      <!-- Header Scripts -->
+      <script id="header-scripts">
+        // This script tag will be replaced with actual scripts.head content
+        if (window.scripts && window.scripts.head) {
+          document.getElementById('header-scripts').outerHTML = window.scripts.head;
+        }
+      </script>
+
+      <!-- Preconnect -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+      <!-- Font stylesheet -->
+
+      <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
+
+      <!-- Core CSS -->
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script>
+      // render the settings object
+      //console.log('settings', [object Object]);
+      document.addEventListener('DOMContentLoaded', function() {
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: {
+                  DEFAULT: '#0D1117',
+                  50: '#f8f8f8',
+                  100: '#e8e8e8', 
+                  200: '#d3d3d3',
+                  300: '#a3a3a3',
+                  400: '#737373',
+                  500: '#525252',
+                  600: '#404040',
+                  700: '#262626',
+                  800: '#171717',
+                  900: '#0a0a0a',
+                  950: '#030303',
+                },
+                secondary: {
+                  DEFAULT: '#161B22',
+                  50: '#f8f8f8',
+                  100: '#e8e8e8',
+                  200: '#d3d3d3', 
+                  300: '#a3a3a3',
+                  400: '#737373',
+                  500: '#525252',
+                  600: '#404040',
+                  700: '#262626',
+                  800: '#171717',
+                  900: '#0a0a0a',
+                  950: '#030303',
+                },
+                accent: {
+                  DEFAULT: '',
+                  50: '#f8f8f8',
+                  100: '#e8e8e8',
+                  200: '#d3d3d3',
+                  300: '#a3a3a3', 
+                  400: '#737373',
+                  500: '#525252',
+                  600: '#404040',
+                  700: '#262626',
+                  800: '#171717',
+                  900: '#0a0a0a',
+                  950: '#030303',
+                },
+              },
+              fontFamily: {
+                sans: ['Inter, sans-serif', 'Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica Neue', 'Arial', 'sans-serif'],
+                heading: ['Roboto Mono, monospace', 'Inter', 'system-ui', 'sans-serif'],
+                body: ['Roboto Mono, monospace', 'Inter', 'system-ui', 'sans-serif'],
+              },
+              spacing: {
+                '18': '4.5rem',
+                '22': '5.5rem',
+                '30': '7.5rem',
+              },
+              maxWidth: {
+                '8xl': '88rem',
+                '9xl': '96rem',
+              },
+              animation: {
+                'fade-in': 'fadeIn 0.5s ease-in',
+                'fade-out': 'fadeOut 0.5s ease-out',
+                'slide-up': 'slideUp 0.5s ease-out',
+                'slide-down': 'slideDown 0.5s ease-out',
+                'slide-left': 'slideLeft 0.5s ease-out',
+                'slide-right': 'slideRight 0.5s ease-out',
+                'scale-in': 'scaleIn 0.5s ease-out',
+                'scale-out': 'scaleOut 0.5s ease-out',
+                'spin-slow': 'spin 3s linear infinite',
+                'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                'bounce-slow': 'bounce 3s infinite',
+                'float': 'float 3s ease-in-out infinite',
+              },
+              keyframes: {
+                fadeIn: {
+                  '0%': { opacity: '0' },
+                  '100%': { opacity: '1' },
+                },
+                fadeOut: {
+                  '0%': { opacity: '1' },
+                  '100%': { opacity: '0' },
+                },
+                slideUp: {
+                  '0%': { transform: 'translateY(20px)', opacity: '0' },
+                  '100%': { transform: 'translateY(0)', opacity: '1' },
+                },
+                slideDown: {
+                  '0%': { transform: 'translateY(-20px)', opacity: '0' },
+                  '100%': { transform: 'translateY(0)', opacity: '1' },
+                },
+                slideLeft: {
+                  '0%': { transform: 'translateX(20px)', opacity: '0' },
+                  '100%': { transform: 'translateX(0)', opacity: '1' },
+                },
+                slideRight: {
+                  '0%': { transform: 'translateX(-20px)', opacity: '0' },
+                  '100%': { transform: 'translateX(0)', opacity: '1' },
+                },
+                scaleIn: {
+                  '0%': { transform: 'scale(0.9)', opacity: '0' },
+                  '100%': { transform: 'scale(1)', opacity: '1' },
+                },
+                scaleOut: {
+                  '0%': { transform: 'scale(1.1)', opacity: '0' },
+                  '100%': { transform: 'scale(1)', opacity: '1' },
+                },
+                float: {
+                  '0%, 100%': { transform: 'translateY(0)' },
+                  '50%': { transform: 'translateY(-10px)' },
+                },
+              },
+              aspectRatio: {
+                'portrait': '3/4',
+                'landscape': '4/3',
+                'ultrawide': '21/9',
+              },
+            },
+          },
+          variants: {
+            extend: {
+              opacity: ['disabled'],
+              cursor: ['disabled'],
+              backgroundColor: ['active', 'disabled'],
+              textColor: ['active', 'disabled'],
+            },
+          },
+        }
+      });
+      </script>
+
+      <!-- Utilities and Components -->
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.13.3/cdn.min.js"></script>
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.45.1/apexcharts.min.js"></script>
+      
+      <!-- Optimized Font Loading -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      
+      <!-- Icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <!-- Dynamic Meta Tags -->
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+      <meta name="robots" content="">
+      <meta name="google-site-verification" content="">
+      <meta name="baidu-verification" content="">
+      <meta name="yandex-verification" content="">
+      <meta name="bing-verification" content="">
+      <meta property="og:title" content="">
+      <meta property="og:description" content="">
+      <meta property="og:image" content="">
+      <meta property="og:type" content="website">
+      <meta property="og:locale" content="en_US">
+      <meta property="og:site_name" content="Fluxion Labs">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="">
+      <meta name="twitter:description" content="">
+      <meta name="twitter:image" content="">
+    
+      
+      <!-- Font Links -->
+     
+      <link rel="icon" type="image/x-icon" href="">
+
+      <style>
+        h1, h2, h3, h4, h5, h6 {
+          font-family: Inter, sans-serif, Inter, system-ui, sans-serif;
+        }
+        body {
+          font-family: Roboto Mono, monospace, Inter, system-ui, sans-serif;
+        }
+      </style>
+   </head>
+   <body class="antialiased text-gray-800 min-h-screen flex flex-col">
+      <!-- Skip to main content link for accessibility -->
+      <a href="#main-content" 
+         class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:p-4 focus:bg-white focus:text-black">
+         Skip to main content
+      </a>
+
+      <!-- Main content area -->
+      <main id="main-content" class="flex-1 relative h-full">
+        <div id="RolloutPageContent"><element id="0bcebf18-2c2d-457d-a761-3fd922f539b9" data-section-id="0bcebf18-2c2d-457d-a761-3fd922f539b9">
+
+
+<div id="root">
+  <header id="header" class="bg-neutral-900 text-white">
+    <nav class="container mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <a href="#" class="text-2xl font-bold text-white">
+          <span class="text-[#2F81F7]">Fluxion</span> Labs
+        </a>
+        
+        <!-- Desktop Navigation -->
+        <ul class="hidden md:flex space-x-8">
+            <li>
+              <a href="#" class="text-white hover:text-[#2F81F7] transition-colors duration-200">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#services" class="text-white hover:text-[#2F81F7] transition-colors duration-200">
+                Services
+              </a>
+            </li>
+            <li>
+              <a href="#contact" class="text-white hover:text-[#2F81F7] transition-colors duration-200">
+                Contact
+              </a>
+            </li>
+        </ul>
+        
+        <!-- Mobile Navigation Button -->
+        <button type="button" class="md:hidden text-white focus:outline-none" aria-label="Toggle menu" id="menuButton">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+      
+      <!-- Mobile Navigation Menu -->
+      <div id="mobileMenu" class="hidden md:hidden">
+        <ul class="pt-4 pb-3 space-y-3">
+            <li>
+              <a href="#" class="block py-2 px-4 text-white hover:bg-neutral-800 rounded transition-colors duration-200">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#services" class="block py-2 px-4 text-white hover:bg-neutral-800 rounded transition-colors duration-200">
+                Services
+              </a>
+            </li>
+            <li>
+              <a href="#contact" class="block py-2 px-4 text-white hover:bg-neutral-800 rounded transition-colors duration-200">
+                Contact
+              </a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+</div>
+
+<script>
+  // Mobile menu toggle
+  document.getElementById('menuButton').addEventListener('click', function() {
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
+
+</element><element id="65cfc5ed-666a-485b-80af-ffe7687dc5fe" data-section-id="65cfc5ed-666a-485b-80af-ffe7687dc5fe">
+
+
+<div id="root">
+  <section id="hero" class="bg-neutral-900 text-white relative overflow-hidden">
+    <!-- Background grid/pattern effect -->
+    <div class="absolute inset-0 z-0 opacity-20">
+      <div class="absolute w-full h-full" style="background-image: radial-gradient(circle at 25px 25px, rgba(255, 255, 255, 0.15) 2px, transparent 0); background-size: 50px 50px;"></div>
+    </div>
+    
+    <!-- Main hero content -->
+    <div class="container mx-auto px-4 py-20 md:py-28 lg:py-32 relative z-10">
+      <div class="max-w-4xl mx-auto">
+        <!-- Animated security badge/icon -->
+        <div class="flex justify-center mb-6">
+          <div class="w-16 h-16 md:w-20 md:h-20 bg-[#2F81F7]/20 rounded-full flex items-center justify-center animate-pulse">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 md:h-10 md:w-10 text-[#2F81F7]" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+            </svg>
+          </div>
+        </div>
+        
+        <!-- Headline -->
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 leading-tight">
+          Securing Digital Assets Through Expert Penetration Testing
+        </h1>
+        
+        <!-- Subheadline -->
+        <p class="text-lg md:text-xl text-gray-300 text-center mb-10 max-w-2xl mx-auto">
+          Protecting enterprise infrastructure with advanced cybersecurity solutions and comprehensive security assessments.
+        </p>
+        
+        <!-- CTA Buttons -->
+        <div class="flex flex-col sm:flex-row justify-center gap-4 mb-16">
+          <a href="#services" class="inline-flex items-center justify-center px-6 py-3 bg-[#2F81F7] hover:bg-[#2F81F7]/90 text-white font-medium rounded-lg transition-colors duration-300">
+            Explore Services
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </a>
+          <a href="#contact" class="inline-flex items-center justify-center px-6 py-3 bg-transparent border border-[#2F81F7] text-[#2F81F7] hover:bg-[#2F81F7]/10 font-medium rounded-lg transition-colors duration-300">
+            Contact Us
+          </a>
+        </div>
+        
+        <!-- Security metrics -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+          <div class="p-4 bg-neutral-800 rounded-lg">
+            <div class="font-mono text-[#2F81F7] text-3xl font-bold mb-2">500+</div>
+            <div class="text-gray-300">Security Assessments</div>
+          </div>
+          <div class="p-4 bg-neutral-800 rounded-lg">
+            <div class="font-mono text-[#2F81F7] text-3xl font-bold mb-2">13+</div>
+            <div class="text-gray-300">Global Enterprises</div>
+          </div>
+          <div class="p-4 bg-neutral-800 rounded-lg">
+            <div class="font-mono text-[#2F81F7] text-3xl font-bold mb-2">99.8%</div>
+            <div class="text-gray-300">Security Coverage</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Animated bottom wave/curve -->
+    <div class="absolute bottom-0 left-0 right-0">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" class="w-full h-auto">
+        <path fill="#161B22" fill-opacity="1" d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+      </svg>
+    </div>
+  </section>
+</div>
+
+</element><element id="6bbedf89-fb33-420c-aa77-52da3e3d341a" data-section-id="6bbedf89-fb33-420c-aa77-52da3e3d341a">
+
+
+<div id="root">
+  <section id="overview" class="py-20 bg-neutral-800 text-white">
+    <div class="container mx-auto px-4">
+      <!-- Section title -->
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Company Overview</h2>
+        <div class="w-24 h-1 bg-[#2F81F7] mx-auto"></div>
+      </div>
+      
+      <!-- Main content -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <!-- Left content -->
+        <div>
+          <h3 class="text-2xl font-bold mb-6 text-[#2F81F7]">Elite Cybersecurity Services</h3>
+          <p class="text-gray-300 mb-6 leading-relaxed">
+            Fluxion Labs is a premier cybersecurity firm specializing in advanced penetration testing and security assessments for enterprise-level organizations. Our expert team of security professionals identifies vulnerabilities before they can be exploited.
+          </p>
+          <p class="text-gray-300 mb-8 leading-relaxed">
+            With a track record of serving global institutions and Fortune 500 companies, we provide comprehensive cybersecurity solutions that protect your most valuable digital assets against evolving threats.
+          </p>
+          
+          <!-- Key features -->
+          <div class="space-y-4">
+            <div class="flex items-start">
+              <div class="flex-shrink-0 mt-1">
+                <svg class="w-5 h-5 text-[#2F81F7]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <p class="ml-3 text-gray-300">Comprehensive vulnerability assessment and penetration testing</p>
+            </div>
+            <div class="flex items-start">
+              <div class="flex-shrink-0 mt-1">
+                <svg class="w-5 h-5 text-[#2F81F7]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <p class="ml-3 text-gray-300">Advanced threat modeling and risk assessment</p>
+            </div>
+            <div class="flex items-start">
+              <div class="flex-shrink-0 mt-1">
+                <svg class="w-5 h-5 text-[#2F81F7]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <p class="ml-3 text-gray-300">Custom security solutions for enterprise infrastructure</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Right visual element - Hexagon security graphic -->
+        <div class="relative h-80 md:h-96">
+          <div class="absolute inset-0 bg-neutral-700 rounded-lg overflow-hidden">
+            <!-- Hexagon grid pattern -->
+            <div class="absolute inset-0 opacity-20">
+              <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <pattern id="hexagons" width="50" height="43.4" patternUnits="userSpaceOnUse" patternTransform="scale(2)">
+                    <path d="M25 0 L50 14.4 L50 38.4 L25 50 L0 38.4 L0 14.4 Z" fill="none" stroke="#2F81F7" stroke-width="1"></path>
+                  </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#hexagons)" />
+              </svg>
+            </div>
+            
+            <!-- Center shield icon -->
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="w-24 h-24 md:w-32 md:h-32 bg-[#2F81F7]/20 rounded-full flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 md:h-16 md:w-16 text-[#2F81F7]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+            </div>
+            
+            <!-- Animated pulse elements -->
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="w-40 h-40 md:w-48 md:h-48 border-2 border-[#2F81F7]/30 rounded-full animate-ping opacity-75 duration-1000"></div>
+            </div>
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="w-56 h-56 md:w-64 md:h-64 border border-[#2F81F7]/20 rounded-full animate-ping opacity-50 duration-2000 delay-300"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Key metrics/stats -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mt-20">
+        <div class="bg-neutral-700 p-6 rounded-lg text-center">
+          <div class="text-4xl font-bold text-[#2F81F7] mb-2">100%</div>
+          <div class="text-sm text-gray-300">Success Rate</div>
+        </div>
+        <div class="bg-neutral-700 p-6 rounded-lg text-center">
+          <div class="text-4xl font-bold text-[#2F81F7] mb-2">15+</div>
+          <div class="text-sm text-gray-300">Years Experience</div>
+        </div>
+        <div class="bg-neutral-700 p-6 rounded-lg text-center">
+          <div class="text-4xl font-bold text-[#2F81F7] mb-2">24/7</div>
+          <div class="text-sm text-gray-300">Security Monitoring</div>
+        </div>
+        <div class="bg-neutral-700 p-6 rounded-lg text-center">
+          <div class="text-4xl font-bold text-[#2F81F7] mb-2">13+</div>
+          <div class="text-sm text-gray-300">Global Clients</div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+</element><element id="7bfa9011-aa47-456c-95d7-791c5927c57f" data-section-id="7bfa9011-aa47-456c-95d7-791c5927c57f">
+
+
+<div id="root">
+  <section id="services" class="py-20 bg-neutral-900 text-white">
+    <div class="container mx-auto px-4">
+      <!-- Section title -->
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
+        <p class="text-gray-300 max-w-2xl mx-auto">Comprehensive security solutions tailored to protect your organization's most critical assets</p>
+        <div class="w-24 h-1 bg-[#2F81F7] mx-auto mt-6"></div>
+      </div>
+      
+      <!-- Services cards -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <!-- Service 1: Web Application Security Testing -->
+        <div class="bg-neutral-800 rounded-lg overflow-hidden transition-transform duration-300 hover:translate-y-[-8px] group">
+          <div class="h-2 bg-[#2F81F7]"></div>
+          <div class="p-8">
+            <div class="w-16 h-16 bg-[#2F81F7]/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-[#2F81F7]/20 transition-colors duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#2F81F7]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Web Application Security Testing</h3>
+            <ul class="space-y-3 mb-6 text-gray-300">
+              <li class="flex items-start">
+                <svg class="w-5 h-5 text-[#2F81F7] mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                <span>OWASP Top 10 vulnerability assessment</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="w-5 h-5 text-[#2F81F7] mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                <span>API security testing</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="w-5 h-5 text-[#2F81F7] mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                <span>Authentication and session management audit</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="w-5 h-5 text-[#2F81F7] mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                <span>Business logic flaw detection</span>
+              </li>
+            </ul>
+            <a href="#contact" class="inline-flex items-center text-[#2F81F7] hover:text-[#2F81F7]/80 transition-colors duration-300">
+              Learn more
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Service 2: Mobile Application Security Testing -->
+        <div class="bg-neutral-800 rounded-lg overflow-hidden transition-transform duration-300 hover:translate-y-[-8px] group">
+          <div class="h-2 bg-[#2F81F7]"></div>
+          <div class="p-8">
+            <div class="w-16 h-16 bg-[#2F81F7]/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-[#2F81F7]/20 transition-colors duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#2F81F7]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Mobile Application Security Testing</h3>
+            <ul class="space-y-3 mb-6 text-gray-300">
+              <li class="flex items-start">
+                <svg class="w-5 h-5 text-[#2F81F7] mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                <span>iOS and Android platform assessment</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="w-5 h-5 text-[#2F81F7] mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                <span>Secure data storage verification</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="w-5 h-5 text-[#2F81F7] mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                <span>Transportation layer security review</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="w-5 h-5 text-[#2F81F7] mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                <span>Runtime manipulation detection</span>
+              </li>
+            </ul>
+            <a href="#contact" class="inline-flex items-center text-[#2F81F7] hover:text-[#2F81F7]/80 transition-colors duration-300">
+              Learn more
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Service 3: 1:1 Security Training Programs -->
+        <div class="bg-neutral-800 rounded-lg overflow-hidden transition-transform duration-300 hover:translate-y-[-8px] group">
+          <div class="h-2 bg-[#2F81F7]"></div>
+          <div class="p-8">
+            <div class="w-16 h-16 bg-[#2F81F7]/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-[#2F81F7]/20 transition-colors duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#2F81F7]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-bold mb-4">1:1 Security Training Programs</h3>
+            <ul class="space-y-3 mb-6 text-gray-300">
+              <li class="flex items-start">
+                <svg class="w-5 h-5 text-[#2F81F7] mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                <span>Secure coding practices</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="w-5 h-5 text-[#2F81F7] mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                <span>Threat modeling workshops</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="w-5 h-5 text-[#2F81F7] mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                <span>Security awareness training</span>
+              </li>
+              <li class="flex items-start">
+                <svg class="w-5 h-5 text-[#2F81F7] mt-0.5 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                <span>Customized security curriculum</span>
+              </li>
+            </ul>
+            <a href="#contact" class="inline-flex items-center text-[#2F81F7] hover:text-[#2F81F7]/80 transition-colors duration-300">
+              Learn more
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Service process -->
+      <div class="bg-neutral-800 rounded-lg p-8 md:p-12">
+        <h3 class="text-2xl font-bold mb-8 text-center">Our Security Assessment Process</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <!-- Step 1 -->
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 bg-[#2F81F7]/20 rounded-full flex items-center justify-center mb-4">
+              <span class="text-xl font-bold text-[#2F81F7]">1</span>
+            </div>
+            <h4 class="text-lg font-bold mb-2">Discovery</h4>
+            <p class="text-gray-300 text-sm">Comprehensive mapping of your digital assets and attack surface</p>
+          </div>
+          
+          <!-- Step 2 -->
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 bg-[#2F81F7]/20 rounded-full flex items-center justify-center mb-4">
+              <span class="text-xl font-bold text-[#2F81F7]">2</span>
+            </div>
+            <h4 class="text-lg font-bold mb-2">Assessment</h4>
+            <p class="text-gray-300 text-sm">Thorough testing and analysis of potential vulnerabilities</p>
+          </div>
+          
+          <!-- Step 3 -->
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 bg-[#2F81F7]/20 rounded-full flex items-center justify-center mb-4">
+              <span class="text-xl font-bold text-[#2F81F7]">3</span>
+            </div>
+            <h4 class="text-lg font-bold mb-2">Reporting</h4>
+            <p class="text-gray-300 text-sm">Detailed findings with actionable remediation strategies</p>
+          </div>
+          
+          <!-- Step 4 -->
+          <div class="flex flex-col items-center text-center">
+            <div class="w-16 h-16 bg-[#2F81F7]/20 rounded-full flex items-center justify-center mb-4">
+              <span class="text-xl font-bold text-[#2F81F7]">4</span>
+            </div>
+            <h4 class="text-lg font-bold mb-2">Remediation</h4>
+            <p class="text-gray-300 text-sm">Support and verification of security improvements</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- CTA -->
+      <div class="mt-16 text-center">
+        <a href="#contact" class="inline-flex items-center justify-center px-6 py-3 bg-[#2F81F7] text-white font-medium rounded-lg hover:bg-[#2F81F7]/90 transition-colors duration-300">
+          Schedule a Security Assessment
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+</div>
+
+</element><element id="0b2e3763-175a-48e7-adfa-5c180b941afd" data-section-id="0b2e3763-175a-48e7-adfa-5c180b941afd">
+
+<div id="root">
+  <section id="portfolio" class="py-20 bg-neutral-800 text-white">
+    <div class="container mx-auto px-4">
+      <!-- Section title -->
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Global Clients</h2>
+        <p class="text-gray-300 max-w-2xl mx-auto">Trusted by leading organizations worldwide to secure their most critical digital assets</p>
+        <div class="w-24 h-1 bg-[#2F81F7] mx-auto mt-6"></div>
+      </div>
+      
+      <!-- Client logos grid -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 items-center">
+        <!-- United Nations -->
+        <div class="flex items-center justify-center p-4 bg-neutral-700/40 rounded-lg hover:bg-neutral-700/60 transition-colors duration-300 h-32">
+          <div class="text-center">
+            <div class="w-16 h-16 mx-auto mb-2 flex items-center justify-center">
+              <svg class="w-full h-full text-white" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2zm0 3a11 11 0 110 22 11 11 0 010-22zm0 2c-0.424 0-0.841 0.027-1.25 0.078V7.2a0.8 0.8 0 11.6 0v-0.122C15.841 7.027 15.424 7 15 7zm-2.471 0.322c-0.416 0.102-0.82 0.231-1.213 0.385l0.385 0.943a0.8 0.8 0 11.385-1.064l-0.557-0.264zm4.942 0c-0.185 0.088-0.361 0.195-0.52 0.32a0.8 0.8 0 11.385 1.064l0.385-0.943c-0.393-0.154-0.797-0.283-1.213-0.385l-0.037-0.057zm-7.692 1.285c-0.304 0.205-0.59 0.433-0.863 0.679l0.76 0.76a0.8 0.8 0 11.131 0l0.679-0.76c-0.304-0.246-0.624-0.474-0.956-0.679h-0.75zm10.442 0c-0.332 0.205-0.652 0.433-0.956 0.679l0.679 0.76a0.8 0.8 0 11.131 0l0.76-0.76c-0.273-0.246-0.559-0.474-0.863-0.679h-0.75zm-12.606 2.25c-0.246 0.304-0.474 0.624-0.679 0.956v0.75c0.205 0.332 0.433 0.652 0.679 0.956l0.76-0.679a0.8 0.8 0 10-1.131l-0.76-0.851zm14.77 0l-0.76 0.851a0.8 0.8 0 10 1.131l0.76 0.679c0.246-0.304 0.474-0.624 0.679-0.956v-0.75c-0.205-0.332-0.433-0.652-0.679-0.956zm-15.773 3.03c-0.154 0.393-0.283 0.797-0.385 1.213l0.057 0.037c0.088 0.185 0.195 0.361 0.32 0.52a0.8 0.8 0 11.064-1.385l-0.943-0.385h-0.113zm16.775 0l-0.943 0.385a0.8 0.8 0 11.064 1.385c0.125-0.159 0.232-0.335 0.32-0.52l0.057-0.037c-0.102-0.416-0.231-0.82-0.385-1.213h-0.113zM7.08 16.8c-0.051 0.409-0.078 0.826-0.078 1.25s0.027 0.841 0.078 1.25h0.122a0.8 0.8 0 10 -1.6h-0.122c0.051 0.409 0.078 0.826 0.078 1.25s-0.027 0.841-0.078 1.25h0.122a0.8 0.8 0 10 -1.6h-0.122c0.051 0.409 0.078 0.826 0.078 1.25s-0.027 0.841-0.078 1.25c0.409 0.051 0.826 0.078 1.25 0.078V18.4a0.8 0.8 0 11.6 0v-0.1h-0.1c-0.424 0-0.841-0.027-1.25-0.078V18.4a0.8 0.8 0 11.6 0v-0.1h-0.1c-0.424 0-0.841-0.027-1.25-0.078V18.4a0.8 0.8 0 11.6 0v-0.1h-0.1c-0.424 0-0.841-0.027-1.25-0.078zm17.838 0c-0.409 0.051-0.826 0.078-1.25 0.078H23.6v0.1a0.8 0.8 0 11.6 0v-0.178c-0.409 0.051-0.826 0.078-1.25 0.078H23.6v0.1a0.8 0.8 0 11.6 0v-0.178c-0.409 0.051-0.826 0.078-1.25 0.078H23.6v0.1a0.8 0.8 0 11.6 0v-0.178c-0.409 0.051-0.826 0.078-1.25 0.078 0 0.424 0.027 0.841 0.078 1.25h0.122a0.8 0.8 0 10 -1.6h-0.122c0.051 0.409 0.078 0.826 0.078 1.25s-0.027 0.841-0.078 1.25h0.122a0.8 0.8 0 10 -1.6h-0.122c0.051 0.409 0.078 0.826 0.078 1.25s-0.027 0.841-0.078 1.25c0.409-0.051 0.826-0.078 1.25-0.078zm-16.342 4.321l-0.057 0.037c0.102 0.416 0.231 0.82 0.385 1.213h0.113l0.943-0.385a0.8 0.8 0 1-1.064-1.385c-0.125 0.159-0.232 0.335-0.32 0.52zm14.848 0c-0.088-0.185-0.195-0.361-0.32-0.52a0.8 0.8 0 1-1.064 1.385l0.943 0.385h0.113c0.154-0.393 0.283-0.797 0.385-1.213l-0.057-0.037zm-13.125 2.864l-0.76 0.679c0.246 0.304 0.474 0.624 0.679 0.956v0.75c0.205-0.332 0.433-0.652 0.679-0.956l-0.76-0.679a0.8 0.8 0 1-0.679-0.748 0.782 0.782 0 10.841 -0.002zm11.402 0a0.8 0.8 0 1-0.679 0.748 0.782 0.782 0 10.841 0.002l-0.76 0.679c0.246 0.304 0.474 0.624 0.679 0.956v0.75c0.205-0.332 0.433-0.652 0.679-0.956l-0.76-0.679zm-9.106 2.129l-0.679 0.76c0.304 0.246 0.624 0.474 0.956 0.679h0.75c0.332-0.205 0.652-0.433 0.956-0.679l-0.679-0.76a0.8 0.8 0 1-1.131 0h-0.173zm6.81 0a0.8 0.8 0 1-1.131 0l-0.679 0.76c0.304 0.246 0.624 0.474 0.956 0.679h0.75c0.332-0.205 0.652-0.433 0.956-0.679l-0.679-0.76h-0.173zm-4.605 1.678l-0.385 0.943c0.393 0.154 0.797 0.283 1.213 0.385l0.037-0.057c0.185-0.088 0.361-0.195 0.52-0.32a0.8 0.8 0 1-1.385-1.064v0.113zm2.4 0a0.8 0.8 0 1-1.385 1.064c0.159 0.125 0.335 0.232 0.52 0.32l0.037 0.057c0.416-0.102 0.82-0.231 1.213-0.385l-0.385-0.943v-0.113zM16 26.8a0.8 0.8 0 11.6 0v-0.122c-0.409 0.051-0.826 0.078-1.25 0.078s-0.841-0.027-1.25-0.078V26.8a0.8 0.8 0 11.6 0z"/>
+              </svg>
+            </div>
+            <p class="text-xs font-medium">United Nations</p>
+          </div>
+        </div>
+        
+        <!-- Singapore Government -->
+        <div class="flex items-center justify-center p-4 bg-neutral-700/40 rounded-lg hover:bg-neutral-700/60 transition-colors duration-300 h-32">
+          <div class="text-center">
+            <div class="w-16 h-16 mx-auto mb-2 flex items-center justify-center">
+              <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,7.5A1.5,1.5 0 0,0 10.5,9A1.5,1.5 0 0,0 12,10.5A1.5,1.5 0 0,0 13.5,9A1.5,1.5 0 0,0 12,7.5Z" />
+              </svg>
+            </div>
+            <p class="text-xs font-medium">Singapore Government</p>
+          </div>
+        </div>
+        
+        <!-- US Department of Health -->
+        <div class="flex items-center justify-center p-4 bg-neutral-700/40 rounded-lg hover:bg-neutral-700/60 transition-colors duration-300 h-32">
+          <div class="text-center">
+            <div class="w-16 h-16 mx-auto mb-2 flex items-center justify-center">
+              <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M10.5,13H8V15.5H10.5V13M15,13H12.5V15.5H15V13M8,4V6.5H10.5V4H8M15,4H12.5V6.5H15V4M8,8.5V11H10.5V8.5H8M15,8.5H12.5V11H15V8.5M19,8.5H16.5V11H19V8.5M19,4H16.5V6.5H19V4M19,13H16.5V15.5H19V13M22,6.5H20V4H17.5V6.5H15V4H12.5V6.5H10.5V4H8V6.5H5V4H2V22H22V6.5Z" />
+              </svg>
+            </div>
+            <p class="text-xs font-medium">US Dept. of Health</p>
+          </div>
+        </div>
+        
+        <!-- Apple -->
+        <div class="flex items-center justify-center p-4 bg-neutral-700/40 rounded-lg hover:bg-neutral-700/60 transition-colors duration-300 h-32">
+          <div class="text-center">
+            <div class="w-16 h-16 mx-auto mb-2 flex items-center justify-center">
+              <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z" />
+              </svg>
+            </div>
+            <p class="text-xs font-medium">Apple</p>
+          </div>
+        </div>
+        
+        <!-- UNESCO -->
+        <div class="flex items-center justify-center p-4 bg-neutral-700/40 rounded-lg hover:bg-neutral-700/60 transition-colors duration-300 h-32">
+          <div class="text-center">
+            <div class="w-16 h-16 mx-auto mb-2 flex items-center justify-center">
+              <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M21 15V18H24V20H21V23H19V20H16V18H19V15H21M14 18H3V6H14V18M14 4H3C1.89 4 1 4.89 1 6V18C1 19.11 1.89 20 3 20H14C15.11 20 16 19.11 16 18V6C16 4.89 15.11 4 14 4M8.5 15.5C10.16 15.5 11.5 14.16 11.5 12.5V9.5C11.5 7.84 10.16 6.5 8.5 6.5C6.84 6.5 5.5 7.84 5.5 9.5V12.5C5.5 14.16 6.84 15.5 8.5 15.5M7 9.5C7 8.67 7.67 8 8.5 8S10 8.67 10 9.5V12.5C10 13.33 9.33 14 8.5 14S7 13.33 7 12.5V9.5Z" />
+              </svg>
+            </div>
+            <p class="text-xs font-medium">UNESCO</p>
+          </div>
+        </div>
+        
+        <!-- WHO -->
+        <div class="flex items-center justify-center p-4 bg-neutral-700/40 rounded-lg hover:bg-neutral-700/60 transition-colors duration-300 h-32">
+          <div class="text-center">
+            <div class="w-16 h-16 mx-auto mb-2 flex items-center justify-center">
+              <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M14.5,8.5L12.5,10.5L10.5,8.5L8.5,10.5L10.5,12.5L8.5,14.5L10.5,16.5L12.5,14.5L14.5,16.5L16.5,14.5L14.5,12.5L16.5,10.5L14.5,8.5M12,11A1,1 0 0,0 11,12A1,1 0 0,0 12,13A1,1 0 0,0 13,12A1,1 0 0,0 12,11Z" />
+              </svg>
+            </div>
+            <p class="text-xs font-medium">WHO</p>
+          </div>
+        </div>
+        
+        <!-- OnePlus -->
+        <div class="flex items-center justify-center p-4 bg-neutral-700/40 rounded-lg hover:bg-neutral-700/60 transition-colors duration-300 h-32">
+          <div class="text-center">
+            <div class="w-16 h-16 mx-auto mb-2 flex items-center justify-center">
+              <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M19.9 5.1c.1.2.1.5.1.9v12c0 .3 0 .6-.1.9l-3-3-2-2-2.1-2.1 2.1-2.1 2-2 3-3M4.1 5.1l3 3 2 2 2.1 2.1L9.1 14l-2 2-3 3c-.1-.2-.1-.5-.1-.9V6c0-.3 0-.6.1-.9z" />
+              </svg>
+            </div>
+            <p class="text-xs font-medium">OnePlus</p>
+          </div>
+        </div>
+        
+        <!-- University of Texas -->
+        <div class="flex items-center justify-center p-4 bg-neutral-700/40 rounded-lg hover:bg-neutral-700/60 transition-colors duration-300 h-32">
+          <div class="text-center">
+            <div class="w-16 h-16 mx-auto mb-2 flex items-center justify-center">
+              <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z" />
+              </svg>
+            </div>
+            <p class="text-xs font-medium">University of Texas</p>
+          </div>
+        </div>
+        
+        <!-- Australia Post -->
+        <div class="flex items-center justify-center p-4 bg-neutral-700/40 rounded-lg hover:bg-neutral-700/60 transition-colors duration-300 h-32">
+          <div class="text-center">
+            <div class="w-16 h-16 mx-auto mb-2 flex items-center justify-center">
+              <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M20,4H4C2.9,4 2,4.9 2,6V18C2,19.1 2.9,20 4,20H20C21.1,20 22,19.1 22,18V6C22,4.9 21.1,4 20,4M20,18H4V8L12,13L20,8V18M20,6L12,11L4,6V6H20V6Z" />
+              </svg>
+            </div>
+            <p class="text-xs font-medium">Australia Post</p>
+          </div>
+        </div>
+        
+        <!-- Nokia -->
+        <div class="flex items-center justify-center p-4 bg-neutral-700/40 rounded-lg hover:bg-neutral-700/60 transition-colors duration-300 h-32">
+          <div class="text-center">
+            <div class="w-16 h-16 mx-auto mb-2 flex items-center justify-center">
+              <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M17.5,12.25H16V16H5V8H16V11.75H17.5V6.5H3.5V17.5H17.5V12.25Z" />
+              </svg>
+            </div>
+            <p class="text-xs font-medium">Nokia</p>
+          </div>
+        </div>
+        
+        <!-- Cambridge University -->
+        <div class="flex items-center justify-center p-4 bg-neutral-700/40 rounded-lg hover:bg-neutral-700/60 transition-colors duration-300 h-32">
+          <div class="text-center">
+            <div class="w-16 h-16 mx-auto mb-2 flex items-center justify-center">
+              <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z" />
+              </svg>
+            </div>
+            <p class="text-xs font-medium">Cambridge University</p>
+          </div>
+        </div>
+        
+        <!-- Drexel University -->
+        <div class="flex items-center justify-center p-4 bg-neutral-700/40 rounded-lg hover:bg-neutral-700/60 transition-colors duration-300 h-32">
+          <div class="text-center">
+            <div class="w-16 h-16 mx-auto mb-2 flex items-center justify-center">
+              <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z" />
+              </svg>
+            </div>
+            <p class="text-xs font-medium">Drexel University</p>
+          </div>
+        </div>
+        
+        <!-- Unilever -->
+        <div class="flex items-center justify-center p-4 bg-neutral-700/40 rounded-lg hover:bg-neutral-700/60 transition-colors duration-300 h-32">
+          <div class="text-center">
+            <div class="w-16 h-16 mx-auto mb-2 flex items-center justify-center">
+              <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M18.5,2A1.5,1.5 0 0,1 20,3.5A1.5,1.5 0 0,1 18.5,5C18.27,5 18.05,4.95 17.85,4.85L14.16,8.55L14.5,9C16.69,7.74 19.26,7 22,7L22,9C19.78,9 17.64,9.58 15.81,10.66L18.12,14.55C18.35,14.97 18.29,15.5 17.96,15.84C17.68,16.11 17.26,16.18 16.89,16.04L8.07,12.25C7.79,12.44 7.5,12.61 7.19,12.76L4.5,15.46C4.7,15.65 4.84,15.92 4.84,16.22A1.5,1.5 0 0,1 3.34,17.72A1.5,1.5 0 0,1 1.84,16.22C1.84,15.47 2.31,14.84 2.96,14.65L5.5,12.07C4.16,11.17 3.07,9.94 2.37,8.5L4.05,7.5C5.03,9.45 6.95,11 9.35,11.59L9.87,11.75L16.07,14.5L14.5,12.07C13.27,12.93 11.86,13.5 10.33,13.7L10,12C11.8,11.82 13.43,11.03 14.7,9.83L14.5,9.5L9.14,4.17C9.04,4.07 8.97,3.95 8.94,3.81C8.89,3.56 9,3.31 9.17,3.13C9.39,2.94 9.68,2.89 9.93,2.97L10.23,3.07L16.97,5.54C17.12,5.37 17.31,5.22 17.53,5.13L11.72,2.6L11.82,2.12C14.19,2.55 16.33,3.86 17.85,5.76L18.31,5.31C18.05,5 17.85,4.61 17.85,4.18C17.85,3.03 18.78,2.11 19.92,2.11C19.96,2.11 20,2.11 20.04,2.11C20,2.08 20,2.05 19.96,2.03C19.5,1.79 18.96,1.63 18.4,1.58L18.54,0C19.12,0.04 19.67,0.19 20.24,0.38C21.16,0.7 22.06,1.18 22.81,1.74L22.46,2.78C21.95,2.33 21.31,2 20.61,1.76C19.85,1.5 19.13,1.38 18.63,1.35C19.35,1.45 19.97,1.73 20.45,2.13C20.47,2.14 20.5,2.16 20.5,2.16C20.22,2.08 19.91,2.05 19.61,2.05C19.37,2.05 19.13,2.08 18.9,2.13C18.65,2.18 18.42,2.26 18.2,2.37C18.35,2.28 18.53,2.19 18.71,2.13C18.27,2.2 17.86,2.37 17.5,2.61C17.43,2.66 17.35,2.71 17.29,2.76L17.06,2.92C16.62,3.23 16.27,3.66 16.04,4.13L15.6,3.91C15.9,3.28 16.36,2.75 16.92,2.35L16.83,2.31C16.57,2.19 16.28,2.13 16.06,2.08C16.05,2.08 16.03,2.07 16,2.07C16.17,2.07 16.34,2.12 16.5,2.19C14.26,1.95 11.97,2.46 10.08,3.72L8.85,2.94C11.23,1.5 14.15,1.12 16.89,1.92L16.83,1.79C16.78,1.67 16.75,1.54 16.71,1.41L17.67,1.15C17.75,1.37 17.8,1.59 17.86,1.81C17.96,2.11 18.2,2.85 18.5,2Z" />
+              </svg>
+            </div>
+            <p class="text-xs font-medium">Unilever</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Global presence -->
+      <div class="mt-20">
+        <div class="text-center mb-12">
+          <h3 class="text-2xl font-bold mb-4">Global Security Presence</h3>
+          <p class="text-gray-300 max-w-2xl mx-auto">Providing enterprise-level security solutions across 6 continents</p>
+        </div>
+        
+        <div class="bg-neutral-700/30 p-8 rounded-lg relative overflow-hidden">
+          <!-- World map (simplified SVG representation) -->
+          <div class="opacity-20 absolute inset-0">
+            <svg viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+              <path fill="#2F81F7" d="M473 144l-4 1 1 2-1 1-4-1-7 2-1 1-5-3h-5l-2 1-3-1-3 1-2 3 3 2 1 5 4 3v4l-2 3-3 1-2 4-3 2-4 1-2 6 1 4-1 2-4 1-3-1-1-2-5 1-2 2-5 1-1 1-4-1-3 1-4-2-5 1-4 2-3-2-2 3-2-2h-3l-3 5h-3l-3 1-1 2-3 1-3-2-2 3-18-4-3 2-19-4-9-8-2-4-7-4-7-2h-7l-6-3-2-2-4-1-4-5-4-2-1-2-4-2-8-1-2-2-6-2-3-2-3-1-5-5v-5l-2-2 1-3-2-4 2-2v-3l-4-7 1-4v-7l-2-4 1-3-3-7-1-5 1-2-3-11-2-2v-3l-2-2 1-3-1-2 1-2-2-2-4-13v-3l-2-4v-3l-2-3 1-5-1-5-2-5 2-2 2 1 1-2 2 1 4-1 3-2 4 1 4-3 2-3 5-1 4-3v-2l3-3 3-1 8 1 2-1 3 1h4l3-1 5 3 2-1 3 1 3-3 1-3 1-3 2-3v-6l2-1 1-4-1-5 1-2 2-1 2-7 7-5 4 1 2-1 1-4-1-7 5-6 3-6 4-3 7-2 3-2v-5l-1-2h-5l-2-3-3-2-2-4 4-5v-3l-2-3 2-7v-8l2-1-1-5 1-2 3-1 2-4-1-4 3-7 7-7 3-7 5-4 1-3-1-4 3-3 2-1-1-2 2-3 5-2 3 1 4-6 2-1 3 1 2-2 2 1 7-3 4-3 7-1 3-2 4-1 4 2 5-3v-6l-5-6 1-9 2-3v-3l2-1v-3l-3-3v-3l2-2-1-3 4-8 2-9v-3l3-3-1-4h4l3 1 3-3 3-2h3l4-4 2 1 1-2 6-2 4-3 3 1 3-2 2 1 4-3 4 1 2-1v-3l2-1h5l3-2 4 3 6-3 2 2h4l5-3 4-5 3-6 2-1 5 1 5-6 2-1 2 2 4-4h3l1-2 3-1 4 1 3-2h4l3-3 7-3 3-3 4-3 5-1 6 1 6-2 3 1 5-1 4 1 3-1 1-3h6l3-3 3-1 2-2 4-1 7 5 4 1 3-2 2 1 4-2 8 4 2-1 4 2 3-2 2 1v3l3 3v3l-3 2h-4v7l4 2 3-2 5 3v2l-3 4 4 2 2 4 5 2 1 2 2 1v6l-2 6 3 2-2 7-2 2-1 5 1 2-4 5v3l4 3-2 5 2 3-1 6 1 2-1 3 1 3v8l2 3-1 3 1 7-1 3 1 9-1 6 2 4-1 3 3 2-2 5 2 3-2 4 2 2-1 2 2 2-2 4 2 3-3 6 3 3-2 4 2 3-2 7 5 3 2 3 10 7 3 1 5 4 5 2 3 3 6 2 8 6 5 2 5 4 2 1 4 5 5 2 9 7 7 2 3 3 1 3v4l2 2v5l-2 2 1 5-2 1-2 9-2 3h-3l-2-2-6 1-4-5-4-1-5-5h-6l-5-2-3 2-2-1-4 3-2-2-6 2-3-1-4 3-3-2-3 1-3-2-3 1-8-5-4 1-4-4-9-2-4-3-3 1-3-2-3 1-11-6h-5l-6-5-8-3-2-3-3-1-5-6-3-1-1-2-1-3-5-2-2-3-6-3-3-4-5-1-7-7-2-1-7-7-2-3-5-3-5-5-2-1-3-5-4-2-1-2h-3l-2-3-4-2v-3l-2-2-1-5-4-4-1-3-3-3-1-4-5-5v-2l-3-2v-3l-5-7-10-8-1-3-4-5 1-4-1-5-4-8-3-4-1-4-3-6-4-4-2-4-4-3-2-4-2-2-3-5-1-4-3-2v-9l1-3-1-5 2-3h4l5 2h7v-2l6-2 2-2 4 1 4-1 3 1 3-5 5-2h5l4-4 3 3 4-2 2 1h3l3 2 3-2 1-2 6-1 3-2 3 1h3l2-1 3 1 3-2 3 1 2-2 3 1 3-3v-3l-1-2-3-1 1-3 4-1-2-3 1-4 4-2h5l3-2 2-4 13-2 3-2h4l6-2 4 1 6-3 2 1 5-2 9 1 4-3 3 2 2-1h3l2 1 3-1 2 2 3-3 4 3 11-3 9 2 3-1 5 3 2-2 4 2 7-2 2 2 5-2 1-5 8-1 1-2 4 1 9-6 3-5 3-2 1-3 3-3 4-1 3-2h6l2-6h8l13-3zM276 181l-2 1-1 3h-1l-1-2-2 3h3v5l-2 3 1 6 3 4 6 2-1 2-3 2 5 1 2 3 3-1 4 4 3-1-1 3-8 8-1 4 2 7 2 2-1 3h2l5 9 1 7 2 3 3 2 6 1 3 3 2 1 2 3 4 2 5 1v3l4 5 7 4 2 3 8 5v2l2 1 3 6 1 5h3l1 4 8 5 4 1 8 7 9 2 3 3 8 2 3 2 7 6h3l2 2 2-3 3 1 4 7 2 1 10 2 8 4 4 4 5 2 2 2 3 1 3 6 5 2-1 2 3 1v3l4 4 1 3 4 1v2l9 5 6 2v-3l2-1 2 3 2-1 3 1-1 2h2v3l3 1 2-3 4 4 3-1 3 3h2l3 4 5 1 1 2 2-2 3 1 1 2 5-2 5 1 8 5 1 3 3 2v2h3l4 3 5-2h3l8-3h4l5-3 3 1 3-2 2 3h3l2-1 3 2 5-5 7-4 5-1 5-4 5-1 2-3 2 1 2-1v-3l3-2 2-5-2-7 1-3-2-4 2-2-1-3 1-2-1-3v-5l-2-2 2-3-2-3-3-2-2-5-3-2-3-12-3-5-2-6-2-3v-3l-2-2 1-3-3-1h-3l-4-7-3-1-1-3-3-4-3-7-5-5-1-5-4-8-5-4v-10l-2-4-3-3-3-7-2-2-4-1-5-9-5-12-2-1 1-2-2-1-2-11-6-6-3-8-7-6-2-5-6-6-3-6-3-2-2-3-3-1-2-3-5-4-8-1v-3l-4-1-3-7-2-2-3-8 1-2-3-13 1-3-2-8 1-3-5-24-2-8 1-3-4-12v-6l-3-3-3-7-3-18v-5l-2-3 1-4-2-5-3-5-1-5-2-2-2-9z"/>
+              <path fill="#2F81F7" d="M527 145h4l1 5 4 3 7 3 2-1h4l2 2 3-1 2 1 4-2 3 2 3-2 2 1 5-2 2 3 5 1 2 2h3l2 2 4-2 3 2 3-1 2 3 4 2v2l2 1v2l3 1 4 5h3l5 4 3 1 4 4 3 2 1 2 3 1 1 2 3 1v2l4 4v3l6 8 1 3 2 1 1 4 3 3 6 3 3 1 6 7 4 1 1 2 4 3 1 3 4 2 2 3 1 3 3 2 2 4v3l2 2-1 3 2 1v5l3 4v6l-2 6 2 2 2 11 3 2 1 7-1 4 2 3-1 4 3 7 2 2-1 5 3 3v3l2 5v5l2 3-2 7 1 3-1 4 5 5v5l3 2v5l2 2v8l-2 3 1 5 3 2-1 4 3 2v5l-3 2 1 3-2 3 2 3-2 2 1 3-2 4 3 6 2 4 3 23 2 2-2 2 2 7v8l-1 2 1 4-2 3 1 2-1 8 2 6-1 5 1 6-1 3 1 4-1 2 1 4-1 11-4 5-2 9v12l2 5-4 5v4l-2 5 2 2-2 1 2 3-3 5 1 4h-2l-3 6 1 4-1 5 1 9-1 5 1 2-2 6-2 2-1 6h-3l-3 7 1 3-2 8 1 3-1 10-3 7-4 3-2 7 1 3-3 5-3 2-2 5-4 3-3 6-5 2-2 4-2 1-5 9-6 5-3 8-3 3-5 2-3 5-5 4h-6l-3 5 1 3-2 4-3 3v5l-3 2-1 3-3 3-3 1-2 3h-4l-2 3-3 3-4 1-4 6-4 2-5 1-4 3-5 8-3-1-3 3h-3v4l-3 3-8 3v5l-3 3-4 2h-4l-3 2-7 1-6 3-9 1-4 2h-5l-3 2-4 1-7 6-4 2-3-1-3 2-3-1-3 2-13 2-4 2-13 2-5 2h-4l-2 2h-4l-1 2-6 1-5 3-6 1-10 6-3-2-2 1-3-2h-8l-2-2-4 1v-3l-3-3-2 2-3-2v-2l-2-2 2-2-2-3 2-2-1-7-3-2-2-7-3-3-3-1-2-4-3-1-1-3-3-1-5-8-8-3h-7l-4-3h-6l-3-2h-7l-5-4-3-1-5-3-4-1-15-13-4-2-5-7-4-2-2-4h-3l-1-3h-4l-6-8-3-2-4-7-2-2-5-1-1-2h-3l-3-5-4 1-5-1-3-5h-3l-6-3h-3l-4-3-1-3-2-1-2-3h-3l-1-2h-10l-2-2h-3l-3-2-2 1-5-5-3-1-2-3-3-2-7-2-1-2-3-1-1-3-4-2-1-3-4-1-3-3h-3l-2-2-7-4h-3l-2-2h-3l-1-2-3-1v-3l-3-1-2-5-5-5-4-3-2-3-3-2-5-6h-3l-4-5-6-3-2-6h-3l-1-3-3-2v-3l-3-2-1-2-3-2-1-4-6-5v-3l-4-5-1-3-3-2-1-3-5-5-2-5h-2l-2-3-3-2-2-4-4-2-1-3-2-1-3-6-8-9-2-6-7-7-3-6-3-3-1-2-4-2-5-10-6-5-1-3-3-2-1-3-7-6-2-4-4-3-1-5-2-2 1-5-2-3-1-10h-2l-1-4-3-3-1-4-4-6-1-5-3-3v-3l-3-3 1-2-1-4 1-3-1-4 2-3-4-6-2-10 2-4-1-5 1-5-1-2 1-6-1-3 1-5-1-2v-6l-2-8v-4l1-3-1-8v-11l-2-3 2-5-2-3-1-9 2-11-1-2 1-5-2-7 2-5-1-5-3-2-4-13 1-4-2-4 3-3-2-9-5-10v-5l-3-4v-7l-3-7 1-5-2-5-1-9 3-2-1-8 2-3-2-3v-5l3-8-2-2 1-5-2-3 2-3-2-5 2-4v-3l-2-2 2-10-2-2 3-3-2-3 1-4-2-7 2-3v-4l-2-3 2-2-2-4h3l2 2h4l-1-2 3-1 1-3 5-3 4 2 4-3 3 2 6-2h4l10 5 5-1 3 1 3 7 3-2 3 2 2-3 1 2 2-4 3 1 4-1 3 3 4-1 2 3 2-2h3l2 2 3-1 1 2 10-1 3 2 7-3 3 2 3-1 2 2 7-2 2 1 2-2h2l4 3 3-2h3l4-1 3-2 5 2 4-2 6 1 4-2 5 3 4-3 5 2 6-2 5 1v-3l4-2 2-2 3 1v-5l4-1 1-3 3-1 8-7 4-2 4-1 4-4 3-1 4-4 8-4 4-3 4 1 1-2 3 2 2-1h2l3 4 3-3 3 3 5-1 1 2 2-1 7 3 3-1 2 4 6 2 6-1 1-3 9-2 3-3h6l2-1 1-4 5-1 2-2 4 1 2-1 2-6 1-2 10-1 3-1-1-3h3l6-3 3-3 2 2z"/>
+              <path fill="#2F81F7" d="M811 312l1 5 3 1 1 3 3 1v3l4 4v3l5 3 2 5 4 3 2 3 1 7-3 1 1 3-1 2 2 3-3 3 1 2-2 3 1 3-1 2 2 3-1 2 1 7-2 2 1 3-2 3 1 2-2 2 1 3-2 2 2 3-3 2 2 3-2 2 4 3-2 3 2 3-2 3 4 2-2 2 1 4 3 2-3 3 4 3-2 2 3 3-2 5 3 7-2 6 3 2-2 1 1 5-1 6 2 4-1 5 2 1-2 2 1 3-2 6-1 1-3-1-1-2-10-2-3-3-2 1-3-1-7-5-3-1-1-2-2 1-3-3-3 1-2-1-1-3-10-3-2-2-7 4-1-4-6-2-4 3h-3l-6 2h-3l-2-2-5 1-2-2-4 1-1-3-5 1-5-1-6 2-5-1-2 2-5-2-5 1-4-1-2 2-9-1-5 1-3-2-2 1-4-1-4 2-4-1-4 3-2-1-4 1-4-2-2 2-5-1-1 2-8-1-3 2-2-1-1 3-4-3-3 1-3-1-3 2-2-2-3 2-4-1-7 3-4-1-4 2-8-3-2 2-6-1-5 2-5-3-2 1-3-2h-10l-6 3-3-3-3 1-1-3-3 1-3-2-2 2-5-2-3 1-6-1-3 2-3-1-3 3-2-2h-3l-2 3-2-1-3 1-3-1-2 2-4-2-7 6-1 4-3 3-3 1-4 4-3 1-3 5-4 2-2 5-3 2-4 1-2 2-3 1-6 5-8 5-4 5-5 2-6 5-6 2-2 4-2 1-7 3h-4l-4 3-5 1h-3l-2 3h-3l-2 2-3 1-5 7-5 3-3 1-5 5-8 4-5 7-1 2-9 3-4 3-4 1-9 7-5 2-3 2-5 1-9 6-3 5-5 2-6 6-4 3-6 2-4 3-4 2-7 2-10 7-8 4-5 3-3 4h-4l-2 2h-17l-9 2h-13l-8-2-10-1-4-2h-11l-9-2h-3l-7-2h-3l-4-2-7-1-3-2-6-1-2-2-4-1-3-2-5-1-3-2-8-2-1-2-3-1-5-4-6-1-2-2-5-2-1-2-6-1-2-2-4-6-7-5-1-2-5-1-4-5-7-4-1-2-4-2-1-3-5-3-5-5-3-2-2-3-5-3-3-6-9-5-6-9-2-6-3-3-1-4-2-1-1-3-4-5-1-4-3-3-1-5-3-4-1-7-4-2-2-6v-16l1-9 3-6v-4l2-6v-5l3-5 1-6 2-4 1-8v-6l3-7v-14l-2-8 2-6-1-4 1-10-1-5 1-4-1-8 1-5-1-3 1-8 4-8 2-2 1-5-1-5 2-5-1-3 1-7-1-4 2-4-1-3 1-5 2-4v-2l-2-8 1-7-2-3 1-7-1-7 2-6-1-3 1-10-1-5 1-4-1-3v-9l4-7v-4l2-5-1-7 3-2 2 1 4-3 2-6 2-1 3-5h2l5-7 6-2 3-3 4-1 4-2 7-1 4-4 6-5 5-2 3-1 2-4 4-4 5-2 1-2h3l2-2h4l7-5 2-3 7-4 3-1 6-5 8-2 5-5 5-2 3-1 3-4 3-1 2-2 3-1 4-5 4-2 3-1 3-4 4-3 5-2 5-1 3-4 6-3 3-4 3-1 3-4 3-1 4-3 6-4 3-1 2-2 3-1 10-9 4-2 4-6 1-3 5-4 2-2 1-3 5-4 1-2 3-1 3-6 3-2 2-3 3-2 2-3 3-1 2-3 4-2 1-3h3l3-7 8-4v-3l5-3v-3l6-4 2-3 4-1 2-4 4-3 2-6 3-2 1-3 4-1 2-3 5-5 3-2 3-5 6-5 2-2 3-6 1-2 4-3 1-4 7-8 1-3 3-3v-3l3-1 1-5 2-1v-3l3-4 1-8 1-4h-2l-3-5 1-5-1-4 1-3-2-3 3-1-1-3 1-3-1-2 2-3-1-4 2-2-1-3 3-3v-2l3-1-1-3 2-2 4 2 2-2 4 2 2-2 2 1 3-1 10 3 2-2 4 1 1-2 3 1 3-1 10 3 3-1 5 3 2-1 4 1 6-5 4 1 2-2 8 5 4-1 3 1 1-2 4 1 3-1 3 3 4-3 5 1 4-2 3 3 9-3 4 3 4-2 5 2 2-1 5 1 3-2 11 4 3-1 5 2 5-6v-3l4-1v-5l3-2 2-7 2-2 4-1 3-13 5-4 2-7-2-5 1-4-2-3 1-4-2-3 1-2-1-3 1-3-1-3 1-2-2-3 1-2-2-6 1-3-1-3 1-3-2-2 1-2-1-3 2-6 3-6 2-1v-3l2-2 1-3v-4l2-3v-3l2-3 5-3v-4l8-5v-3l2-1v-4l4-4 1-5 3-2 1-6 3-3v-4l4-6 1-8-2-6 2-2 7-4 1-3 4-4 3-3 1-2 2-4 2-1 2-3 4-1 4-9 3-2 5-8 3-2 2-4 7-5 2-1 2-3 5-6 1-3 7-6 6-10 6-3 1-3 3-3 3-1 2-3 6-2v-2l2-4 3-2 2-4 2-2 3-1v-2l5-4 3-1 1-3 7-7 7-7 12-8 4-3 8-4 4-3 18-5 6-3 10-1 9-5h8l3-2 5 1 3-1h10l4 2 4-3 4 1 3-1 5 2 5-2 5 2 2-2 3 1 4-3 8 1 2-2 4 1 1-3 11 5 3-1 4 3 5-1h7l4 4 11-1 2 3 3-1 3 1 2-2 9 3 3-2 4 1 1-2 10 2 4-1 1 2 6-3 2 1 3-1 3 2 4-2 6 3 4-1 3 2 7-2 3 1 7-3 7 3 4-3 7 1 4-1 3 1 3-3 3 4 2-1 3 1 2-1 2 1 3-1 2 2 3-1 3 2 8-3 3 2 2-2 3 1 7-7 3 2h3l4-2 3 2 3-1 2 2 8-2 2 2 3-2 4 3 2-2 4 4 3-1 1 3 3-1 1 3 5-1 2 4 11-3 2 3 5-1 4 3 5-3 5 1 4-2 3 3 2-3 4 3 1-2 4-1 2 3 2-2 4 1 3-1 5 4 6-3 2 3 8-4 3 1 2-4 7 4 3-1 3 3 16-5 4 1 3-1 4 2 3-1 2 1 3-1 4 1 5-3 4 3 12-4 3 1 1-3 4 3 17-7 4 1 5-2 11 3 7-2 10 3 3-1 5 3 6-1 3 2 5-1 7 4 6-2 7 1 6-3 8 3 9-1 8 3 2-3 3 1 2-2 4 1 2-2 7 2 2-1 5 2 3-1 9 5 13-1 7 2 9-3 6 3 7-1 3 1 2-2 4 1 5-3 5 1 2-2 5 2 3-2 3 3 7-2 3 1 2-1 5 3 3-2 7 1 3-1 2 3 4-3 4 1 2-2 3 3 2-2 3 1 2-2 3 1 4-2 5 4 4-2 4 1 5-3 5 2v2l-1 3 2 2-1 7 3 2-1 3 2 1-1 4 1 4-1 3 1 5-2 7 1 5-1 10 1 2-1 3 1 2-1 5 5 4v2l-1 4 2 3-1 2 1 8-2 3 1 3-1 3 3 4-2 1 2 7-2 6v2l3 6-2 1 2 9-1 8z"/>
+            </svg>
+          </div>
+          
+          <!-- Stats -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 relative z-10">
+            <div class="text-center">
+              <div class="text-4xl font-bold text-[#2F81F7] mb-2">13+</div>
+              <p class="text-gray-300">High-Profile Clients</p>
+            </div>
+            <div class="text-center">
+              <div class="text-4xl font-bold text-[#2F81F7] mb-2">6</div>
+              <p class="text-gray-300">Continents</p>
+            </div>
+            <div class="text-center">
+              <div class="text-4xl font-bold text-[#2F81F7] mb-2">500+</div>
+              <p class="text-gray-300">Vulnerabilities Detected</p>
+            </div>
+            <div class="text-center">
+              <div class="text-4xl font-bold text-[#2F81F7] mb-2">100%</div>
+              <p class="text-gray-300">Client Retention</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- CTA -->
+      <div class="text-center mt-16">
+        <a href="#contact" class="inline-flex items-center justify-center px-6 py-3 bg-[#2F81F7] text-white font-medium rounded-lg hover:bg-[#2F81F7]/90 transition-colors duration-300">
+          Become Our Next Success Story
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+</div>
+</element><element id="d1ed41ab-90b3-46d2-aa93-5ff7817eed1f" data-section-id="d1ed41ab-90b3-46d2-aa93-5ff7817eed1f">
+
+<div id="root">
+  <section id="portfolio" class="py-20 bg-neutral-900 text-white">
+    <div class="container mx-auto px-4">
+      <!-- Section title -->
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Portfolio</h2>
+        <p class="text-gray-300 max-w-2xl mx-auto">Trusted by leading global organizations to secure their most critical digital assets</p>
+        <div class="w-24 h-1 bg-[#2F81F7] mx-auto mt-6"></div>
+      </div>
+      
+      <!-- Filter buttons (optional) -->
+      <div class="flex flex-wrap justify-center gap-3 mb-12">
+        <button class="px-4 py-2 bg-[#2F81F7] text-white rounded-md focus:outline-none">All Clients</button>
+        <button class="px-4 py-2 bg-neutral-800 text-white rounded-md hover:bg-neutral-700 transition-colors duration-300 focus:outline-none">Government</button>
+        <button class="px-4 py-2 bg-neutral-800 text-white rounded-md hover:bg-neutral-700 transition-colors duration-300 focus:outline-none">Enterprise</button>
+        <button class="px-4 py-2 bg-neutral-800 text-white rounded-md hover:bg-neutral-700 transition-colors duration-300 focus:outline-none">Education</button>
+        <button class="px-4 py-2 bg-neutral-800 text-white rounded-md hover:bg-neutral-700 transition-colors duration-300 focus:outline-none">Healthcare</button>
+      </div>
+      
+      <!-- Client logos grid -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+        <!-- United Nations -->
+        <div class="relative group">
+          <div class="bg-neutral-800 p-6 rounded-lg flex items-center justify-center h-52 transition-all duration-300 group-hover:shadow-lg group-hover:bg-neutral-700">
+            <div class="text-center">
+              <div class="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                <svg class="w-full h-full text-white" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor" d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2zm0 3a11 11 0 110 22 11 11 0 010-22zm0 2c-0.424 0-0.841 0.027-1.25 0.078V7.2a0.8 0.8 0 11.6 0v-0.122C15.841 7.027 15.424 7 15 7zm-2.471 0.322c-0.416 0.102-0.82 0.231-1.213 0.385l0.385 0.943a0.8 0.8 0 11.385-1.064l-0.557-0.264zm4.942 0c-0.185 0.088-0.361 0.195-0.52 0.32a0.8 0.8 0 11.385 1.064l0.385-0.943c-0.393-0.154-0.797-0.283-1.213-0.385l-0.037-0.057zm-7.692 1.285c-0.304 0.205-0.59 0.433-0.863 0.679l0.76 0.76a0.8 0.8 0 11.131 0l0.679-0.76c-0.304-0.246-0.624-0.474-0.956-0.679h-0.75zm10.442 0c-0.332 0.205-0.652 0.433-0.956 0.679l0.679 0.76a0.8 0.8 0 11.131 0l0.76-0.76c-0.273-0.246-0.559-0.474-0.863-0.679h-0.75zm-12.606 2.25c-0.246 0.304-0.474 0.624-0.679 0.956v0.75c0.205 0.332 0.433 0.652 0.679 0.956l0.76-0.679a0.8 0.8 0 10-1.131l-0.76-0.851zm14.77 0l-0.76 0.851a0.8 0.8 0 10 1.131l0.76 0.679c0.246-0.304 0.474-0.624 0.679-0.956v-0.75c-0.205-0.332-0.433-0.652-0.679-0.956zm-15.773 3.03c-0.154 0.393-0.283 0.797-0.385 1.213l0.057 0.037c0.088 0.185 0.195 0.361 0.32 0.52a0.8 0.8 0 11.064-1.385l-0.943-0.385h-0.113zm16.775 0l-0.943 0.385a0.8 0.8 0 11.064 1.385c0.125-0.159 0.232-0.335 0.32-0.52l0.057-0.037c-0.102-0.416-0.231-0.82-0.385-1.213h-0.113zM7.08 16.8c-0.051 0.409-0.078 0.826-0.078 1.25s0.027 0.841 0.078 1.25h0.122a0.8 0.8 0 10 -1.6h-0.122c0.051 0.409 0.078 0.826 0.078 1.25s-0.027 0.841-0.078 1.25h0.122a0.8 0.8 0 10 -1.6h-0.122c0.051 0.409 0.078 0.826 0.078 1.25s-0.027 0.841-0.078 1.25c0.409 0.051 0.826 0.078 1.25 0.078V18.4a0.8 0.8 0 11.6 0v-0.1h-0.1c-0.424 0-0.841-0.027-1.25-0.078V18.4a0.8 0.8 0 11.6 0v-0.1h-0.1c-0.424 0-0.841-0.027-1.25-0.078V18.4a0.8 0.8 0 11.6 0v-0.1h-0.1c-0.424 0-0.841-0.027-1.25-0.078zm17.838 0c-0.409 0.051-0.826 0.078-1.25 0.078H23.6v0.1a0.8 0.8 0 11.6 0v-0.178c-0.409 0.051-0.826 0.078-1.25 0.078H23.6v0.1a0.8 0.8 0 11.6 0v-0.178c-0.409 0.051-0.826 0.078-1.25 0.078H23.6v0.1a0.8 0.8 0 11.6 0v-0.178c-0.409 0.051-0.826 0.078-1.25 0.078 0 0.424 0.027 0.841 0.078 1.25h0.122a0.8 0.8 0 10 -1.6h-0.122c0.051 0.409 0.078 0.826 0.078 1.25s-0.027 0.841-0.078 1.25h0.122a0.8 0.8 0 10 -1.6h-0.122c0.051 0.409 0.078 0.826 0.078 1.25s-0.027 0.841-0.078 1.25c0.409-0.051 0.826-0.078 1.25-0.078zm-16.342 4.321l-0.057 0.037c0.102 0.416 0.231 0.82 0.385 1.213h0.113l0.943-0.385a0.8 0.8 0 1-1.064-1.385c-0.125 0.159-0.232 0.335-0.32 0.52zm14.848 0c-0.088-0.185-0.195-0.361-0.32-0.52a0.8 0.8 0 1-1.064 1.385l0.943 0.385h0.113c0.154-0.393 0.283-0.797 0.385-1.213l-0.057-0.037zm-13.125 2.864l-0.76 0.679c0.246 0.304 0.474 0.624 0.679 0.956v0.75c0.205-0.332 0.433-0.652 0.679-0.956l-0.76-0.679a0.8 0.8 0 1-0.679-0.748 0.782 0.782 0 10.841 -0.002zm11.402 0a0.8 0.8 0 1-0.679 0.748 0.782 0.782 0 10.841 0.002l-0.76 0.679c0.246 0.304 0.474 0.624 0.679 0.956v0.75c0.205-0.332 0.433-0.652 0.679-0.956l-0.76-0.679zm-9.106 2.129l-0.679 0.76c0.304 0.246 0.624 0.474 0.956 0.679h0.75c0.332-0.205 0.652-0.433 0.956-0.679l-0.679-0.76a0.8 0.8 0 1-1.131 0h-0.173zm6.81 0a0.8 0.8 0 1-1.131 0l-0.679 0.76c0.304 0.246 0.624 0.474 0.956 0.679h0.75c0.332-0.205 0.652-0.433 0.956-0.679l-0.679-0.76h-0.173zm-4.605 1.678l-0.385 0.943c0.393 0.154 0.797 0.283 1.213 0.385l0.037-0.057c0.185-0.088 0.361-0.195 0.52-0.32a0.8 0.8 0 1-1.385-1.064v0.113zm2.4 0a0.8 0.8 0 1-1.385 1.064c0.159 0.125 0.335 0.232 0.52 0.32l0.037 0.057c0.416-0.102 0.82-0.231 1.213-0.385l-0.385-0.943v-0.113zM16 26.8a0.8 0.8 0 11.6 0v-0.122c-0.409 0.051-0.826 0.078-1.25 0.078s-0.841-0.027-1.25-0.078V26.8a0.8 0.8 0 11.6 0z"/>
+                </svg>
+              </div>
+              <p class="text-sm font-medium">United Nations</p>
+            </div>
+            
+            <!-- Hover overlay -->
+            <div class="absolute inset-0 bg-[#2F81F7]/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <div class="text-white text-center p-4">
+                <p class="font-bold mb-2">United Nations</p>
+                <p class="text-sm">Security assessment for global digital infrastructure</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Singapore Government -->
+        <div class="relative group">
+          <div class="bg-neutral-800 p-6 rounded-lg flex items-center justify-center h-52 transition-all duration-300 group-hover:shadow-lg group-hover:bg-neutral-700">
+            <div class="text-center">
+              <div class="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor" d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,7.5A1.5,1.5 0 0,0 10.5,9A1.5,1.5 0 0,0 12,10.5A1.5,1.5 0 0,0 13.5,9A1.5,1.5 0 0,0 12,7.5Z" />
+                </svg>
+              </div>
+              <p class="text-sm font-medium">Singapore Government</p>
+            </div>
+            
+            <!-- Hover overlay -->
+            <div class="absolute inset-0 bg-[#2F81F7]/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <div class="text-white text-center p-4">
+                <p class="font-bold mb-2">Singapore Government</p>
+                <p class="text-sm">Critical infrastructure penetration testing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- US Department of Health -->
+        <div class="relative group">
+          <div class="bg-neutral-800 p-6 rounded-lg flex items-center justify-center h-52 transition-all duration-300 group-hover:shadow-lg group-hover:bg-neutral-700">
+            <div class="text-center">
+              <div class="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor" d="M10.5,13H8V15.5H10.5V13M15,13H12.5V15.5H15V13M8,4V6.5H10.5V4H8M15,4H12.5V6.5H15V4M8,8.5V11H10.5V8.5H8M15,8.5H12.5V11H15V8.5M19,8.5H16.5V11H19V8.5M19,4H16.5V6.5H19V4M19,13H16.5V15.5H19V13M22,6.5H20V4H17.5V6.5H15V4H12.5V6.5H10.5V4H8V6.5H5V4H2V22H22V6.5Z" />
+                </svg>
+              </div>
+              <p class="text-sm font-medium">US Dept. of Health</p>
+            </div>
+            
+            <!-- Hover overlay -->
+            <div class="absolute inset-0 bg-[#2F81F7]/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <div class="text-white text-center p-4">
+                <p class="font-bold mb-2">US Dept. of Health</p>
+                <p class="text-sm">HIPAA compliant security architecture</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Apple -->
+        <div class="relative group">
+          <div class="bg-neutral-800 p-6 rounded-lg flex items-center justify-center h-52 transition-all duration-300 group-hover:shadow-lg group-hover:bg-neutral-700">
+            <div class="text-center">
+              <div class="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor" d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z" />
+                </svg>
+              </div>
+              <p class="text-sm font-medium">Apple</p>
+            </div>
+            
+            <!-- Hover overlay -->
+            <div class="absolute inset-0 bg-[#2F81F7]/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <div class="text-white text-center p-4">
+                <p class="font-bold mb-2">Apple</p>
+                <p class="text-sm">Mobile application security framework</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- UNESCO -->
+        <div class="relative group">
+          <div class="bg-neutral-800 p-6 rounded-lg flex items-center justify-center h-52 transition-all duration-300 group-hover:shadow-lg group-hover:bg-neutral-700">
+            <div class="text-center">
+              <div class="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor" d="M21 15V18H24V20H21V23H19V20H16V18H19V15H21M14 18H3V6H14V18M14 4H3C1.89 4 1 4.89 1 6V18C1 19.11 1.89 20 3 20H14C15.11 20 16 19.11 16 18V6C16 4.89 15.11 4 14 4M8.5 15.5C10.16 15.5 11.5 14.16 11.5 12.5V9.5C11.5 7.84 10.16 6.5 8.5 6.5C6.84 6.5 5.5 7.84 5.5 9.5V12.5C5.5 14.16 6.84 15.5 8.5 15.5M7 9.5C7 8.67 7.67 8 8.5 8S10 8.67 10 9.5V12.5C10 13.33 9.33 14 8.5 14S7 13.33 7 12.5V9.5Z" />
+                </svg>
+              </div>
+              <p class="text-sm font-medium">UNESCO</p>
+            </div>
+            
+            <!-- Hover overlay -->
+            <div class="absolute inset-0 bg-[#2F81F7]/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <div class="text-white text-center p-4">
+                <p class="font-bold mb-2">UNESCO</p>
+                <p class="text-sm">Global digital archive security</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- WHO -->
+        <div class="relative group">
+          <div class="bg-neutral-800 p-6 rounded-lg flex items-center justify-center h-52 transition-all duration-300 group-hover:shadow-lg group-hover:bg-neutral-700">
+            <div class="text-center">
+              <div class="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor" d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M14.5,8.5L12.5,10.5L10.5,8.5L8.5,10.5L10.5,12.5L8.5,14.5L10.5,16.5L12.5,14.5L14.5,16.5L16.5,14.5L14.5,12.5L16.5,10.5L14.5,8.5M12,11A1,1 0 0,0 11,12A1,1 0 0,0 12,13A1,1 0 0,0 13,12A1,1 0 0,0 12,11Z" />
+                </svg>
+              </div>
+              <p class="text-sm font-medium">WHO</p>
+            </div>
+            
+            <!-- Hover overlay -->
+            <div class="absolute inset-0 bg-[#2F81F7]/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <div class="text-white text-center p-4">
+                <p class="font-bold mb-2">WHO</p>
+                <p class="text-sm">Healthcare data protection systems</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- OnePlus -->
+        <div class="relative group">
+          <div class="bg-neutral-800 p-6 rounded-lg flex items-center justify-center h-52 transition-all duration-300 group-hover:shadow-lg group-hover:bg-neutral-700">
+            <div class="text-center">
+              <div class="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor" d="M19.9 5.1c.1.2.1.5.1.9v12c0 .3 0 .6-.1.9l-3-3-2-2-2.1-2.1 2.1-2.1 2-2 3-3M4.1 5.1l3 3 2 2 2.1 2.1L9.1 14l-2 2-3 3c-.1-.2-.1-.5-.1-.9V6c0-.3 0-.6.1-.9z" />
+                </svg>
+              </div>
+              <p class="text-sm font-medium">OnePlus</p>
+            </div>
+            
+            <!-- Hover overlay -->
+            <div class="absolute inset-0 bg-[#2F81F7]/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <div class="text-white text-center p-4">
+                <p class="font-bold mb-2">OnePlus</p>
+                <p class="text-sm">Mobile firmware security assessment</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- University of Texas -->
+        <div class="relative group">
+          <div class="bg-neutral-800 p-6 rounded-lg flex items-center justify-center h-52 transition-all duration-300 group-hover:shadow-lg group-hover:bg-neutral-700">
+            <div class="text-center">
+              <div class="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor" d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z" />
+                </svg>
+              </div>
+              <p class="text-sm font-medium">University of Texas</p>
+            </div>
+            
+            <!-- Hover overlay -->
+            <div class="absolute inset-0 bg-[#2F81F7]/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <div class="text-white text-center p-4">
+                <p class="font-bold mb-2">University of Texas</p>
+                <p class="text-sm">Academic research security framework</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Australia Post -->
+        <div class="relative group">
+          <div class="bg-neutral-800 p-6 rounded-lg flex items-center justify-center h-52 transition-all duration-300 group-hover:shadow-lg group-hover:bg-neutral-700">
+            <div class="text-center">
+              <div class="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor" d="M20,4H4C2.9,4 2,4.9 2,6V18C2,19.1 2.9,20 4,20H20C21.1,20 22,19.1 22,18V6C22,4.9 21.1,4 20,4M20,18H4V8L12,13L20,8V18M20,6L12,11L4,6V6H20V6Z" />
+                </svg>
+              </div>
+              <p class="text-sm font-medium">Australia Post</p>
+            </div>
+            
+            <!-- Hover overlay -->
+            <div class="absolute inset-0 bg-[#2F81F7]/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <div class="text-white text-center p-4">
+                <p class="font-bold mb-2">Australia Post</p>
+                <p class="text-sm">Logistics web application testing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Nokia -->
+        <div class="relative group">
+          <div class="bg-neutral-800 p-6 rounded-lg flex items-center justify-center h-52 transition-all duration-300 group-hover:shadow-lg group-hover:bg-neutral-700">
+            <div class="text-center">
+              <div class="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor" d="M17.5,12.25H16V16H5V8H16V11.75H17.5V6.5H3.5V17.5H17.5V12.25Z" />
+                </svg>
+              </div>
+              <p class="text-sm font-medium">Nokia</p>
+            </div>
+            
+            <!-- Hover overlay -->
+            <div class="absolute inset-0 bg-[#2F81F7]/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <div class="text-white text-center p-4">
+                <p class="font-bold mb-2">Nokia</p>
+                <p class="text-sm">Telecommunications security assessment</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Cambridge University -->
+        <div class="relative group">
+          <div class="bg-neutral-800 p-6 rounded-lg flex items-center justify-center h-52 transition-all duration-300 group-hover:shadow-lg group-hover:bg-neutral-700">
+            <div class="text-center">
+              <div class="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor" d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z" />
+                </svg>
+              </div>
+              <p class="text-sm font-medium">Cambridge University</p>
+            </div>
+            
+            <!-- Hover overlay -->
+            <div class="absolute inset-0 bg-[#2F81F7]/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <div class="text-white text-center p-4">
+                <p class="font-bold mb-2">Cambridge University</p>
+                <p class="text-sm">Research database penetration testing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Drexel University -->
+        <div class="relative group">
+          <div class="bg-neutral-800 p-6 rounded-lg flex items-center justify-center h-52 transition-all duration-300 group-hover:shadow-lg group-hover:bg-neutral-700">
+            <div class="text-center">
+              <div class="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor" d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z" />
+                </svg>
+              </div>
+              <p class="text-sm font-medium">Drexel University</p>
+            </div>
+            
+            <!-- Hover overlay -->
+            <div class="absolute inset-0 bg-[#2F81F7]/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <div class="text-white text-center p-4">
+                <p class="font-bold mb-2">Drexel University</p>
+                <p class="text-sm">Campus network security assessment</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Unilever -->
+        <div class="relative group">
+          <div class="bg-neutral-800 p-6 rounded-lg flex items-center justify-center h-52 transition-all duration-300 group-hover:shadow-lg group-hover:bg-neutral-700">
+            <div class="text-center">
+              <div class="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                <svg class="w-full h-full text-white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor" d="M18.5,2A1.5,1.5 0 0,1 20,3.5A1.5,1.5 0 0,1 18.5,5C18.27,5 18.05,4.95 17.85,4.85L14.16,8.55L14.5,9C16.69,7.74 19.26,7 22,7L22,9C19.78,9 17.64,9.58 15.81,10.66L18.12,14.55C18.35,14.97 18.29,15.5 17.96,15.84C17.68,16.11 17.26,16.18 16.89,16.04L8.07,12.25C7.79,12.44 7.5,12.61 7.19,12.76L4.5,15.46C4.7,15.65 4.84,15.92 4.84,16.22A1.5,1.5 0 0,1 3.34,17.72A1.5,1.5 0 0,1 1.84,16.22C1.84,15.47 2.31,14.84 2.96,14.65L5.5,12.07C4.16,11.17 3.07,9.94 2.37,8.5L4.05,7.5C5.03,9.45 6.95,11 9.35,11.59L9.87,11.75L16.07,14.5L14.5,12.07C13.27,12.93 11.86,13.5 10.33,13.7L10,12C11.8,11.82 13.43,11.03 14.7,9.83L14.5,9.5L9.14,4.17C9.04,4.07 8.97,3.95 8.94,3.81C8.89,3.56 9,3.31 9.17,3.13C9.39,2.94 9.68,2.89 9.93,2.97L10.23,3.07L16.97,5.54C17.12,5.37 17.31,5.22 17.53,5.13L11.72,2.6L11.82,2.12C14.19,2.55 16.33,3.86 17.85,5.76L18.31,5.31C18.05,5 17.85,4.61 17.85,4.18C17.85,3.03 18.78,2.11 19.92,2.11C19.96,2.11 20,2.11 20.04,2.11C20,2.08 20,2.05 19.96,2.03C19.5,1.79 18.96,1.63 18.4,1.58L18.54,0C19.12,0.04 19.67,0.19 20.24,0.38C21.16,0.7 22.06,1.18 22.81,1.74L22.46,2.78C21.95,2.33 21.31,2 20.61,1.76C19.85,1.5 19.13,1.38 18.63,1.35C19.35,1.45 19.97,1.73 20.45,2.13C20.47,2.14 20.5,2.16 20.5,2.16C20.22,2.08 19.91,2.05 19.61,2.05C19.37,2.05 19.13,2.08 18.9,2.13C18.65,2.18 18.42,2.26 18.2,2.37C18.35,2.28 18.53,2.19 18.71,2.13C18.27,2.2 17.86,2.37 17.5,2.61C17.43,2.66 17.35,2.71 17.29,2.76L17.06,2.92C16.62,3.23 16.27,3.66 16.04,4.13L15.6,3.91C15.9,3.28 16.36,2.75 16.92,2.35L16.83,2.31C16.57,2.19 16.28,2.13 16.06,2.08C16.05,2.08 16.03,2.07 16,2.07C16.17,2.07 16.34,2.12 16.5,2.19C14.26,1.95 11.97,2.46 10.08,3.72L8.85,2.94C11.23,1.5 14.15,1.12 16.89,1.92L16.83,1.79C16.78,1.67 16.75,1.54 16.71,1.41L17.67,1.15C17.75,1.37 17.8,1.59 17.86,1.81C17.96,2.11 18.2,2.85 18.5,2Z" />
+                </svg>
+              </div>
+              <p class="text-sm font-medium">Unilever</p>
+            </div>
+            
+            <!-- Hover overlay -->
+            <div class="absolute inset-0 bg-[#2F81F7]/80 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <div class="text-white text-center p-4">
+                <p class="font-bold mb-2">Unilever</p>
+                <p class="text-sm">Enterprise network vulnerability analysis</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Global stats -->
+      <div class="mt-20 bg-neutral-800 rounded-lg p-8 md:p-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h3 class="text-2xl font-bold mb-4">Our Global Impact</h3>
+            <p class="mb-6 text-gray-300">Fluxion Labs has successfully delivered high-impact security solutions for organizations across 6 continents, protecting critical infrastructure and sensitive data from sophisticated cyber threats.</p>
+            <div class="space-y-3">
+              <div class="flex items-center">
+                <div class="w-3 h-3 bg-[#2F81F7] rounded-full mr-3"></div>
+                <p class="text-gray-300">13 major global clients across diverse sectors</p>
+              </div>
+              <div class="flex items-center">
+                <div class="w-3 h-3 bg-[#2F81F7] rounded-full mr-3"></div>
+                <p class="text-gray-300">500+ critical vulnerabilities identified and remediated</p>
+              </div>
+              <div class="flex items-center">
+                <div class="w-3 h-3 bg-[#2F81F7] rounded-full mr-3"></div>
+                <p class="text-gray-300">100% client retention rate with ongoing security partnerships</p>
+              </div>
+            </div>
+            <div class="mt-8">
+              <a href="#contact" class="inline-flex items-center justify-center px-6 py-3 bg-[#2F81F7] text-white font-medium rounded-lg hover:bg-[#2F81F7]/90 transition-colors duration-300">
+                Schedule a Security Assessment
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="relative">
+            <!-- World map visualization -->
+            <div class="bg-neutral-700/30 rounded-lg p-4 h-full flex items-center justify-center">
+              <div class="relative w-full h-64 md:h-80">
+                <!-- World map (simplified SVG) -->
+                <svg class="w-full h-full" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="none" stroke="#374151" stroke-width="0.5" d="M473 144l-4 1 1 2-1 1-4-1-7 2-1 1-5-3h-5l-2 1-3-1-3 1-2 3 3 2 1 5 4 3v4l-2 3-3 1-2 4-3 2-4 1-2 6 1 4-1 2-4 1-3-1-1-2-5 1-2 2-5 1-1 1-4-1-3 1-4-2-5 1-4 2-3-2-2 3-2-2h-3l-3 5h-3l-3 1-1 2-3 1-3-2-2 3-18-4-3 2-19-4-9-8-2-4-7-4-7-2h-7l-6-3-2-2-4-1-4-5-4-2-1-2-4-2-8-1-2-2-6-2-3-2-3-1-5-5v-5l-2-2 1-3-2-4 2-2v-3l-4-7 1-4v-7l-2-4 1-3-3-7-1-5 1-2-3-11-2-2v-3l-2-2 1-3-1-2 1-2-2-2-4-13v-3l-2-4v-3l-2-3 1-5-1-5-2-5 2-2 2 1 1-2 2 1 4-1 3-2 4 1 4-3 2-3 5-1 4-3v-2l3-3 3-1 8 1 2-1 3 1h4l3-1 5 3 2-1 3 1 3-3 1-3 1-3 2-3v-6l2-1 1-4-1-5 1-2 2-1 2-7 7-5 4 1 2-1 1-4-1-7 5-6 3-6 4-3 7-2 3-2v-5l-1-2h-5l-2-3-3-2-2-4 4-5v-3l-2-3 2-7v-8l2-1-1-5 1-2 3-1 2-4-1-4 3-7 7-7 3-7 5-4 1-3-1-4 3-3 2-1-1-2 2-3 5-2 3 1 4-6 2-1 3 1 2-2 2 1 7-3 4-3 7-1 3-2 4-1 4 2 5-3v-6l-5-6 1-9 2-3v-3l2-1v-3l-3-3v-3l2-2-1-3 4-8 2-9v-3l3-3-1-4h4l3 1 3-3 3-2h3l4-4 2 1 1-2 6-2 4-3 3 1 3-2 2 1 4-3 4 1 2-1v-3l2-1h5l3-2 4 3 6-3 2 2h4l5-3 4-5 3-6 2-1 5 1 5-6 2-1 2 2 4-4h3l1-2 3-1 4 1 3-2h4l3-3 7-3 3-3 4-3 5-1 6 1 6-2 3 1 5-1 4 1 3-1 1-3h6l3-3 3-1 2-2 4-1 7 5 4 1 3-2 2 1 4-2 8 4 2-1 4 2 3-2 2 1v3l3 3v3l-3 2h-4v7l4 2 3-2 5 3v2l-3 4 4 2 2 4 5 2 1 2 2 1v6l-2 6 3 2-2 7-2 2-1 5 1 2-4 5v3l4 3-2 5 2 3-1 6 1 2-1 3 1 3v8l2 3-1 3 1 7-1 3 1 9-1 6 2 4-1 3 3 2-2 5 2 3-2 4 2 2-1 2 2 2-2 4 2 3-3 6 3 3-2 4 2 3-2 7 5 3 2 3 10 7 3 1 5 4 5 2 3 3 6 2 8 6 5 2 5 4 2 1 4 5 5 2 9 7 7 2 3 3 1 3v4l2 2v5l-2 2 1 5-2 1-2 9-2 3h-3l-2-2-6 1-4-5-4-1-5-5h-6l-5-2-3 2-2-1-4 3-2-2-6 2-3-1-4 3-3-2-3 1-3-2-3 1-8-5-4 1-4-4-9-2-4-3-3 1-3-2-3 1-11-6h-5l-6-5-8-3-2-3-3-1-5-6-3-1-1-2-1-3-5-2-2-3-6-3-3-4-5-1-7-7-2-1-7-7-2-3-5-3-5-5-2-1-3-5-4-2-1-2h-3l-2-3-4-2v-3l-2-2-1-5-4-4-1-3-3-3-1-4-5-5v-2l-3-2v-3l-5-7-10-8-1-3-4-5 1-4-1-5-4-8-3-4-1-4-3-6-4-4-2-4-4-3-2-4-2-2-3-5-1-4-3-2v-9l1-3-1-5 2-3h4l5 2h7v-2l6-2 2-2 4 1 4-1 3 1 3-5 5-2h5l4-4 3 3 4-2 2 1h3l3 2 3-2 1-2 6-1 3-2 3 1h3l2-1 3 1 3-2 3 1 2-2 3 1 3-3v-3l-1-2-3-1 1-3 4-1-2-3 1-4 4-2h5l3-2 2-4 13-2 3-2h4l6-2 4 1 6-3 2 1 5-2 9 1 4-3 3 2 2-1h3l2 1 3-1 2 2 3-3 4 3 11-3 9 2 3-1 5 3 2-2 4 2 7-2 2 2 5-2 1-5 8-1 1-2 4 1 9-6 3-5 3-2 1-3 3-3 4-1 3-2h6l2-6h8l13-3zM276 181l-2 1-1 3h-1l-1-2-2 3h3v5l-2 3 1 6 3 4 6 2-1 2-3 2 5 1 2 3 3-1 4 4 3-1-1 3-8 8-1 4 2 7 2 2-1 3h2l5 9 1 7 2 3 3 2 6 1 3 3 2 1 2 3 4 2 5 1v3l4 5 7 4 2 3 8 5v2l2 1 3 6 1 5h3l1 4 8 5 4 1 8 7 9 2 3 3 8 2 3 2 7 6h3l2 2 2-3 3 1 4 7 2 1 10 2 8 4 4 4 5 2 2 2 3 1 3 6 5 2-1 2 3 1v3l4 4 1 3 4 1v2l9 5 6 2v-3l2-1 2 3 2-1 3 1-1 2h2v3l3 1 2-3 4 4 3-1 3 3h2l3 4 5 1 1 2 2-2 3 1 1 2 5-2 5 1 8 5 1 3 3 2v2h3l4 3 5-2h3l8-3h4l5-3 3 1 3-2 2 3h3l2-1 3 2 5-5 7-4 5-1 5-4 5-1 2-3 2 1 2-1v-3l3-2 2-5-2-7 1-3-2-4 2-2-1-3 1-2-1-3v-5l-2-2 2-3-2-3-3-2-2-5-3-2-3-12-3-5-2-6-2-3v-3l-2-2 1-3-3-1h-3l-4-7-3-1-1-3-3-4-3-7-5-5-1-5-4-8-5-4v-10l-2-4-3-3-3-7-2-2-4-1-5-9-5-12-2-1 1-2-2-1-2-11-6-6-3-8-7-6-2-5-6-6-3-6-3-2-2-3-3-1-2-3-5-4-8-1v-3l-4-1-3-7-2-2-3-8 1-2-3-13 1-3-2-8 1-3-5-24-2-8 1-3-4-12v-6l-3-3-3-7-3-18v-5l-2-3 1-4-2-5-3-5-1-5-2-2-2-9z"/>
+                  <path fill="none" stroke="#374151" stroke-width="0.5" d="M527 145h4l1 5 4 3 7 3 2-1h4l2 2 3-1 2 1 4-2 3 2 3-2 2 1 5-2 2 3 5 1 2 2h3l2 2 4-2 3 2 3-1 2 3 4 2v2l2 1v2l3 1 4 5h3l5 4 3 1 4 4 3 2 1 2 3 1 1 2 3 1v2l4 4v3l6 8 1 3 2 1 1 4 3 3 6 3 3 1 6 7 4 1 1 2 4 3 1 3 4 2 2 3 1 3 3 2 2 4v3l2 2-1 3 2 1v5l3 4v6l-2 6 2 2 2 11 3 2 1 7-1 4 2 3-1 4 3 7 2 2-1 5 3 3v3l2 5v5l2 3-2 7 1 3-1 4 5 5v5l3 2v5l2 2v8l-2 3 1 5 3 2-1 4 3 2v5l-3 2 1 3-2 3 2 3-2 2 1 3-2 4 3 6 2 4 3 23 2 2-2 2 2 7v8l-1 2 1 4-2 3 1 2-1 8 2 6-1 5 1 6-1 3 1 4-1 2 1 4-1 11-4 5-2 9v12l2 5-4 5v4l-2 5 2 2-2 1 2 3-3 5 1 4h-2l-3 6 1 4-1 5 1 9-1 5 1 2-2 6-2 2-1 6h-3l-3 7 1 3-2 8 1 3-1 10-3 7-4 3-2 7 1 3-3 5-3 2-2 5-4 3-3 6-5 2-2 4-2 1-5 9-6 5-3 8-3 3-5 2-3 5-5 4h-6l-3 5 1 3-2 4-3 3v5l-3 2-1 3-3 3-3 1-2 3h-4l-2 3-3 3-4 1-4 6-4 2-5 1-4 3-5 8-3-1-3 3h-3v4l-3 3-8 3v5l-3 3-4 2h-4l-3 2-7 1-6 3-9 1-4 2h-5l-3 2-4 1-7 6-4 2-3-1-3 2-3-1-3 2-13 2-4 2-13 2-5 2h-4l-2 2h-4l-1 2-6 1-5 3-6 1-10 6-3-2-2 1-3-2h-8l-2-2-4 1v-3l-3-3-2 2-3-2v-2l-2-2 2-2-2-3 2-2-1-7-3-2-2-7-3-3-3-1-2-4-3-1-1-3-3-1-5-8-8-3h-7l-4-3h-6l-3-2h-7l-5-4-3-1-5-3-4-1-15-13-4-2-5-7-4-2-2-4h-3l-1-3h-4l-6-8-3-2-4-7-2-2-5-1-1-2h-3l-3-5-4 1-5-1-3-5h-3l-6-3h-3l-4-3-1-3-2-1-2-3h-3l-1-2h-10l-2-2h-3l-3-2-2 1-5-5-3-1-2-3-3-2-7-2-1-2-3-1-1-3-4-2-1-3-4-1-3-3h-3l-2-2-7-4h-3l-2-2h-3l-1-2-3-1v-3l-3-1-2-5-5-5-4-3-2-3-3-2-5-6h-3l-4-5-6-3-2-6h-3l-1-3-3-2v-3l-3-2-1-2-3-2-1-4-6-5v-3l-4-5-1-3-3-2-1-3-5-5-2-5h-2l-2-3-3-2-2-4-4-2-1-3-2-1-3-6-8-9-2-6-7-7-3-6-3-3-1-2-4-2-5-10-6-5-1-3-3-2-1-3-7-6-2-4-4-3-1-5-2-2 1-5-2-3-1-10h-2l-1-4-3-3-1-4-4-6-1-5-3-3v-3l-3-3 1-2-1-4 1-3-1-4 2-3-4-6-2-10 2-4-1-5 1-5-1-2 1-6-1-3 1-5-1-2v-6l-2-8v-4l1-3-1-8v-11l-2-3 2-5-2-3-1-9 2-11-1-2 1-5-2-7 2-5-1-5-3-2-4-13 1-4-2-4 3-3-2-9-5-10v-5l-3-4v-7l-3-7 1-5-2-5-1-9 3-2-1-8 2-3-2-3v-5l3-8-2-2 1-5-2-3 2-3-2-5 2-4v-3l-2-2 2-10-2-2 3-3-2-3 1-4-2-7 2-3v-4l-2-3 2-2-2-4h3l2 2h4l-1-2 3-1 1-3 5-3 4 2 4-3 3 2 6-2h4l10 5 5-1 3 1 3 7 3-2 3 2 2-3 1 2 2-4 3 1 4-1 3 3 4-1 2 3 2-2h3l2 2 3-1 1 2 10-1 3 2 7-3 3 2 3-1 2 2 7-2 2 1 2-2h2l4 3 3-2h3l4-1 3-2 5 2 4-2 6 1 4-2 5 3 4-3 5 2 6-2 5 1v-3l4-2 2-2 3 1v-5l4-1 1-3 3-1 8-7 4-2 4-1 4-4 3-1 4-4 8-4 4-3 4 1 1-2 3 2 2-1h2l3 4 3-3 3 3 5-1 1 2 2-1 7 3 3-1 2 4 6 2 6-1 1-3 9-2 3-3h6l2-1 1-4 5-1 2-2 4 1 2-1 2-6 1-2 10-1 3-1-1-3h3l6-3 3-3 2 2z"/>
+                  <path fill="none" stroke="#374151" stroke-width="0.5" d="M811 312l1 5 3 1 1 3 3 1v3l4 4v3l5 3 2 5 4 3 2 3 1 7-3 1 1 3-1 2 2 3-3 3 1 2-2 3 1 3-1 2 2 3-1 2 1 7-2 2 1 3-2 3 1 2-2 2 1 3-2 2 2 3-3 2 2 3-2 2 4 3-2 3 2 3-2 3 4 2-2 2 1 4 3 2-3 3 4 3-2 2 3 3-2 5 3 7-2 6 3 2-2 1 1 5-1 6 2 4-1 5 2 1-2 2 1 3-2 6-1 1-3-1-1-2-10-2-3-3-2 1-3-1-7-5-3-1-1-2-2 1-3-3-3 1-2-1-1-3-10-3-2-2-7 4-1-4-6-2-4 3h-3l-6 2h-3l-2-2-5 1-2-2-4 1-1-3-5 1-5-1-6 2-5-1-2 2-5-2-5 1-4-1-2 2-9-1-5 1-3-2-2 1-4-1-4 2-4-1-4 3-2-1-4 1-4-2-2 2-5-1-1 2-8-1-3 2-2-1-1 3-4-3-3 1-3-1-3 2-2-2-3 2-4-1-7 3-4-1-4 2-8-3-2 2-6-1-5 2-5-3-2 1-3-2h-10l-6 3-3-3-3 1-1-3-3 1-3-2-2 2-5-2-3 1-6-1-3 2-3-1-3 3-2-2h-3l-2 3-2-1-3 1-3-1-2 2-4-2-7 6-1 4-3 3-3 1-4 4-3 1-3 5-4 2-2 5-3 2-4 1-2 2-3 1-6 5-8 5-4 5-5 2-6 5-6 2-2 4-2 1-7 3h-4l-4 3-5 1h-3l-2 3h-3l-2 2-3 1-5 7-5 3-3 1-5 5-8 4-5 7-1 2-9 3-4 3-4 1-9 7-5 2-3 2-5 1-9 6-3 5-5 2-6 6-4 3-6 2-4 3-4 2-7 2-10 7-8 4-5 3-3 4h-4l-2 2h-17l-9 2h-13l-8-2-10-1-4-2h-11l-9-2h-3l-7-2h-3l-4-2-7-1-3-2-6-1-2-2-4-1-3-2-5-1-3-2-8-2-1-2-3-1-5-4-6-1-2-2-5-2-1-2-6-1-2-2-4-6-7-5-1-2-5-1-4-5-7-4-1-2-4-2-1-3-5-3-5-5-3-2-2-3-5-3-3-6-9-5-6-9-2-6-3-3-1-4-2-1-1-3-4-5-1-4-3-3-1-5-3-4-1-7-4-2-2-6v-16l1-9 3-6v-4l2-6v-5l3-5 1-6 2-4 1-8v-6l3-7v-14l-2-8 2-6-1-4 1-10-1-5 1-4-1-8 1-5-1-3 1-8 4-8 2-2 1-5-1-5 2-5-1-3 1-7-1-4 2-4-1-3 1-5 2-4v-2l-2-8 1-7-2-3 1-7-1-7 2-6-1-3 1-10-1-5 1-4-1-3v-9l4-7v-4l2-5-1-7 3-2 2 1 4-3 2-6 2-1 3-5h2l5-7 6-2 3-3 4-1 4-2 7-1 4-4 6-5 5-2 3-1 2-4 4-4 5-2 1-2h3l2-2h4l7-5 2-3 7-4 3-1 6-5 8-2 5-5 5-2 3-1 3-4 3-1 2-2 3-1 4-5 4-2 3-1 3-4 4-3 5-2 5-1 3-4 6-3 3-4 3-1 3-4 3-1 4-3 6-4 3-1 2-2 3-1 10-9 4-2 4-6 1-3 5-4 2-2 1-3 5-4 1-2 3-1 3-6 3-2 2-3 3-2 2-3 3-1 2-3 4-2 1-3h3l3-7 8-4v-3l5-3v-3l6-4 2-3 4-1 2-4 4-3 2-6 3-2 1-3 4-1 2-3 5-5 3-2 3-5 6-5 2-2 3-6 1-2 4-3 1-4 7-8 1-3 3-3v-3l3-1 1-5 2-1v-3l3-4 1-8 1-4h-2l-3-5 1-5-1-4 1-3-2-3 3-1-1-3 1-3-1-2 2-3-1-4 2-2-1-3 3-3v-2l3-1-1-3 2-2 4 2 2-2 4 2 2-2 2 1 3-1 10 3 2-2 4 1 1-2 3 1 3-1 10 3 3-1 5 3 2-1 4 1 6-5 4 1 2-2 8 5 4-1 3 1 1-2 4 1 3-1 3 3 4-3 5 1 4-2 3 3 9-3 4 3 4-2 5 2 2-1 5 1 3-2 11 4 3-1 5 2 5-6v-3l4-1v-5l3-2 2-7 2-2 4-1 3-13 5-4 2-7-2-5 1-4-2-3 1-4-2-3 1-2-1-3 1-3-1-3 1-2-2-3 1-2-2-6 1-3-1-3 1-3-2-2 1-2-1-3 2-6 3-6 2-1v-3l2-2 1-3v-4l2-3v-3l2-3 5-3v-4l8-5v-3l2-1v-4l4-4 1-5 3-2 1-6 3-3v-4l4-6 1-8-2-6 2-2 7-4 1-3 4-4 3-3 1-2 2-4 2-1 2-3 4-1 4-9 3-2 5-8 3-2 2-4 7-5 2-1 2-3 5-6 1-3 7-6 6-10 6-3 1-3 3-3 3-1 2-3 6-2v-2l2-4 3-2 2-4 2-2 3-1v-2l5-4 3-1 1-3 7-7 7-7 12-8 4-3 8-4 4-3 18-5 6-3 10-1 9-5h8l3-2 5 1 3-1h10l4 2 4-3 4 1 3-1 5 2 5-2 5 2 2-2 3 1 4-3 8 1 2-2 4 1 1-3 11 5 3-1 4 3 5-1h7l4 4 11-1 2 3 3-1 3 1 2-2 9 3 3-2 4 1 1-2 10 2 4-1 1 2 6-3 2 1 3-1 3 2 4-2 6 3 4-1 3 2 7-2 3 1 7-3 7 3 4-3 7 1 4-1 3 1 3-3 3 4 2-1 3 1 2-1 2 1 3-1 2 2 3-1 3 2 8-3 3 2 2-2 3 1 7-7 3 2h3l4-2 3 2 3-1 2 2 8-2 2 2 3-2 4 3 2-2 4 4 3-1 1 3 3-1 1 3 5-1 2 4 11-3 2 3 5-1 4 3 5-3 5 1 4-2 3 3 2-3 4 3 1-2 4-1 2 3 2-2 4 1 3-1 5 4 6-3 2 3 8-4 3 1 2-4 7 4 3-1 3 3 16-5 4 1 3-1 4 2 3-1 2 1 3-1 4 1 5-3 4 3 12-4 3 1 1-3 4 3 17-7 4 1 5-2 11 3 7-2 10 3 3-1 5 3 6-1 3 2 5-1 7 4 6-2 7 1 6-3 8 3 9-1 8 3 2-3 3 1 2-2 4 1 2-2 7 2 2-1 5 2 3-1 9 5 13-1 7 2 9-3 6 3 7-1 3 1 2-2 4 1 5-3 5 1 2-2 5 2 3-2 3 3 7-2 3 1 2-1 5 3 3-2 7 1 3-1 2 3 4-3 4 1 2-2 3 3 2-2 3 1 2-2 3 1 4-2 5 4 4-2 4 1 5-3 5 2v2l-1 3 2 2-1 7 3 2-1 3 2 1-1 4 1 4-1 3 1 5-2 7 1 5-1 10 1 2-1 3 1 2-1 5 5 4v2l-1 4 2 3-1 2 1 8-2 3 1 3-1 3 3 4-2 1 2 7-2 6v2l3 6-2 1 2 9-1 8z"/>
+                </svg>
+                
+                <!-- Client location dots -->
+                <div class="absolute top-[30%] left-[15%] w-4 h-4 bg-[#2F81F7] rounded-full animate-pulse"></div>
+                <div class="absolute top-[35%] left-[30%] w-4 h-4 bg-[#2F81F7] rounded-full animate-pulse"></div>
+                <div class="absolute top-[40%] left-[60%] w-4 h-4 bg-[#2F81F7] rounded-full animate-pulse"></div>
+                <div class="absolute top-[20%] left-[45%] w-4 h-4 bg-[#2F81F7] rounded-full animate-pulse"></div>
+                <div class="absolute top-[50%] left-[70%] w-4 h-4 bg-[#2F81F7] rounded-full animate-pulse"></div>
+                <div class="absolute top-[55%] left-[40%] w-4 h-4 bg-[#2F81F7] rounded-full animate-pulse"></div>
+                <div class="absolute top-[70%] left-[80%] w-4 h-4 bg-[#2F81F7] rounded-full animate-pulse"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</element><element id="9c375f9a-2cea-4e3f-8eb9-8c9031169636" data-section-id="9c375f9a-2cea-4e3f-8eb9-8c9031169636">
+
+<div id="root">
+  <section id="contact" class="py-20 bg-neutral-900 text-white">
+    <div class="container mx-auto px-4">
+      <!-- Section title -->
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
+        <p class="text-gray-300 max-w-2xl mx-auto">Connect with our security experts to discuss your organization's unique security needs</p>
+        <div class="w-24 h-1 bg-[#2F81F7] mx-auto mt-6"></div>
+      </div>
+      
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        <!-- Contact form -->
+        <div class="bg-neutral-800 rounded-lg p-8 md:p-10">
+          <h3 class="text-2xl font-bold mb-8">Get in Touch</h3>
+          
+          <form action="#" method="POST" class="space-y-6">
+            <!-- SSL/TLS Indicator -->
+            <div class="flex items-center mb-8 bg-neutral-700/30 p-4 rounded-lg">
+              <div class="mr-3 text-green-400">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+              </div>
+              <div>
+                <p class="text-sm text-green-400 font-medium">Secure Form Submission</p>
+                <p class="text-xs text-gray-400">Your information is encrypted with TLS</p>
+              </div>
+            </div>
+            
+            <!-- Email Field -->
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-300 mb-2">
+                Email Address <span class="text-[#2F81F7]">*</span>
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="w-full px-4 py-3 bg-neutral-700 border border-neutral-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2F81F7] focus:border-transparent transition-colors"
+                placeholder="your@email.com"
+              />
+            </div>
+            
+            <!-- Organization Name -->
+            <div>
+              <label for="organization" class="block text-sm font-medium text-gray-300 mb-2">
+                Organization Name (optional)
+              </label>
+              <input
+                type="text"
+                id="organization"
+                name="organization"
+                class="w-full px-4 py-3 bg-neutral-700 border border-neutral-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2F81F7] focus:border-transparent transition-colors"
+                placeholder="Your Organization"
+              />
+            </div>
+            
+            <!-- Service Interests -->
+            <div>
+              <label class="block text-sm font-medium text-gray-300 mb-2">
+                Services of Interest
+              </label>
+              <div class="space-y-2">
+                <div class="flex items-center">
+                  <input
+                    type="checkbox"
+                    id="web-testing"
+                    name="services[]"
+                    value="web-testing"
+                    class="w-4 h-4 text-[#2F81F7] border-gray-600 rounded focus:ring-[#2F81F7] bg-neutral-700"
+                  />
+                  <label for="web-testing" class="ml-2 text-sm text-gray-300">
+                    Web Application Security Testing
+                  </label>
+                </div>
+                <div class="flex items-center">
+                  <input
+                    type="checkbox"
+                    id="mobile-testing"
+                    name="services[]"
+                    value="mobile-testing"
+                    class="w-4 h-4 text-[#2F81F7] border-gray-600 rounded focus:ring-[#2F81F7] bg-neutral-700"
+                  />
+                  <label for="mobile-testing" class="ml-2 text-sm text-gray-300">
+                    Mobile Application Security Testing
+                  </label>
+                </div>
+                <div class="flex items-center">
+                  <input
+                    type="checkbox"
+                    id="security-training"
+                    name="services[]"
+                    value="security-training"
+                    class="w-4 h-4 text-[#2F81F7] border-gray-600 rounded focus:ring-[#2F81F7] bg-neutral-700"
+                  />
+                  <label for="security-training" class="ml-2 text-sm text-gray-300">
+                    1:1 Security Training Programs
+                  </label>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Message -->
+            <div>
+              <label for="message" class="block text-sm font-medium text-gray-300 mb-2">
+                Your Message
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                class="w-full px-4 py-3 bg-neutral-700 border border-neutral-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#2F81F7] focus:border-transparent transition-colors"
+                placeholder="Please describe your security needs..."
+              ></textarea>
+            </div>
+            
+            <!-- Privacy Notice -->
+            <div class="text-xs text-gray-400 italic">
+              By submitting this form, you agree to our privacy policy. We'll never share your information with third parties.
+            </div>
+            
+            <!-- Submit Button -->
+            <div>
+              <button
+                type="submit"
+                class="w-full px-6 py-3 bg-[#2F81F7] hover:bg-[#2F81F7]/90 text-white font-medium rounded-lg transition-colors duration-300 flex items-center justify-center"
+              >
+                <span>Submit Inquiry</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+        
+        <!-- Contact information -->
+        <div class="space-y-10">
+          <!-- Contact details -->
+          <div class="bg-neutral-800 rounded-lg p-8">
+            <h3 class="text-xl font-bold mb-6">How to Reach Us</h3>
+            
+            <div class="space-y-4">
+              <div class="flex items-start">
+                <div class="flex-shrink-0 mt-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#2F81F7]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <div class="ml-4">
+                  <p class="text-sm font-medium text-gray-300">Email</p>
+                  <p class="text-[#2F81F7] hover:underline mt-1">security@fluxionlabs.com</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start">
+                <div class="flex-shrink-0 mt-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#2F81F7]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <div class="ml-4">
+                  <p class="text-sm font-medium text-gray-300">Response Time</p>
+                  <p class="text-white mt-1">Within 24 hours</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- FAQ Section -->
+          <div class="bg-neutral-800 rounded-lg p-8">
+            <h3 class="text-xl font-bold mb-6">Frequently Asked Questions</h3>
+            
+            <div class="space-y-6">
+              <div>
+                <h4 class="text-[#2F81F7] font-medium mb-2">What information should I prepare?</h4>
+                <p class="text-gray-300 text-sm">It's helpful to have details about your organization's digital assets, current security concerns, and any compliance requirements.</p>
+              </div>
+              
+              <div>
+                <h4 class="text-[#2F81F7] font-medium mb-2">How does the security assessment process work?</h4>
+                <p class="text-gray-300 text-sm">We follow a comprehensive four-step process: Discovery, Assessment, Reporting, and Remediation Support.</p>
+              </div>
+              
+              <div>
+                <h4 class="text-[#2F81F7] font-medium mb-2">Do you offer emergency response services?</h4>
+                <p class="text-gray-300 text-sm">Yes, for existing clients we provide priority incident response services. Please indicate urgency in your contact form.</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Security commitment -->
+          <div class="bg-gradient-to-r from-neutral-800 to-neutral-700 rounded-lg p-8 flex items-center">
+            <div class="mr-6 flex-shrink-0">
+              <div class="w-16 h-16 bg-[#2F81F7]/10 rounded-full flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#2F81F7]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-bold mb-2">Our Security Commitment</h4>
+              <p class="text-gray-300 text-sm">We treat your data with the highest security standards. All consultations are protected by our confidentiality agreement.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</element><element id="c85588a1-6860-4e2c-a58b-7cac59c77e02" data-section-id="c85588a1-6860-4e2c-a58b-7cac59c77e02">
+
+<div id="root">
+  <footer id="footer" class="bg-neutral-900 text-white pt-12 pb-8 border-t border-neutral-800">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <!-- Logo and tagline -->
+        <div>
+          <div class="mb-4">
+            <a href="#" class="text-2xl font-bold text-white">
+              <span class="text-[#2F81F7]">Fluxion</span> Labs
+            </a>
+          </div>
+          <p class="text-gray-400 text-sm mb-4">
+            Enterprise-grade cybersecurity solutions for organizations that demand the highest level of protection.
+          </p>
+          <div class="flex items-center text-xs text-gray-500">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+            </svg>
+            <span>TLS Encrypted</span>
+          </div>
+        </div>
+        
+        <!-- Quick Links -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+          <ul class="space-y-2">
+            <li>
+              <a href="#" class="text-gray-400 hover:text-[#2F81F7] transition-colors duration-300">Home</a>
+            </li>
+            <li>
+              <a href="#services" class="text-gray-400 hover:text-[#2F81F7] transition-colors duration-300">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="text-gray-400 hover:text-[#2F81F7] transition-colors duration-300">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="text-gray-400 hover:text-[#2F81F7] transition-colors duration-300">Contact</a>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Services -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Services</h3>
+          <ul class="space-y-2">
+            <li>
+              <a href="#services" class="text-gray-400 hover:text-[#2F81F7] transition-colors duration-300">Web Application Security</a>
+            </li>
+            <li>
+              <a href="#services" class="text-gray-400 hover:text-[#2F81F7] transition-colors duration-300">Mobile Application Security</a>
+            </li>
+            <li>
+              <a href="#services" class="text-gray-400 hover:text-[#2F81F7] transition-colors duration-300">Security Training Programs</a>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Contact -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Contact</h3>
+          <div class="space-y-3">
+            <p class="text-gray-400 flex items-start">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-[#2F81F7] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <span>security@fluxionlabs.com</span>
+            </p>
+            <a href="#contact" class="inline-flex items-center justify-center px-4 py-2 bg-neutral-800 hover:bg-neutral-700 rounded-lg transition-colors duration-300 text-sm">
+              Get in Touch
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Bottom Footer -->
+      <div class="pt-8 border-t border-neutral-800 flex flex-col md:flex-row justify-between items-center">
+        <div class="text-gray-500 text-sm mb-4 md:mb-0">
+          © 2023 Fluxion Labs. All rights reserved.
+        </div>
+        
+        <div class="flex space-x-6">
+          <a href="#" class="text-gray-500 hover:text-[#2F81F7] transition-colors duration-300 text-sm">
+            Terms of Service
+          </a>
+          <a href="#" class="text-gray-500 hover:text-[#2F81F7] transition-colors duration-300 text-sm">
+            Privacy Policy
+          </a>
+          <a href="#" class="text-gray-500 hover:text-[#2F81F7] transition-colors duration-300 text-sm">
+            Cookie Policy
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Back to top button -->
+    <div class="flex justify-center mt-8">
+      <a href="#" class="bg-neutral-800 hover:bg-neutral-700 p-3 rounded-full transition-colors duration-300" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" />
+        </svg>
+      </a>
+    </div>
+  </footer>
+</div>
+</element></div>
+      </main>
+
+      
+   </body>
+</html>
